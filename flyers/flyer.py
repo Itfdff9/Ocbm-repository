@@ -33,7 +33,7 @@ def flyer(team, logo, url, bg, accent, text, mock1, mock2, out, logo_w=1100, sho
     d.text((W//2,y+670),url.replace('https://',''),font=F(POP,48),fill=text,anchor="mm")
     # footer
     d.rectangle([0,H-150,W,H],fill=accent)
-    d.text((W//2,H-75),"One Crafty Boy Mama  ·  @onecraftyboymama  ·  Marissa (516) 265-4399  ·  Brian (631) 830-9674",font=F(POP,44),fill=bg,anchor="mm")
+    d.text((W//2,H-75),"One Crafty Boy Mama  ·  @onecraftyboymama  ·  onecraftyboymama@gmail.com",font=F(POP,44),fill=bg,anchor="mm")
     im.save(out,quality=95,dpi=(300,300)); print(out)
 R='/home/claude/ocbm-repository/'
 flyer("Bethpage United FC", R+'bufc/logo/BUFC_crest_transparent.png', "https://onecraftyboymama.com/collections/bethpage-united-fc", (255,255,255),(14,28,70),(14,28,70), R+'bufc/g18500/G18500_Black_Front_BUFC.jpg', R+'bufc/g18500/G18500_Ash_Back_SAVVA_18_opt1.jpg', 'BUFC_Team_Store_Flyer.jpg', 640)
