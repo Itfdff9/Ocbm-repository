@@ -1,0 +1,453 @@
+{
+ "g5000": {
+  "colors": {
+   "Antique-Cherry-Red": [
+    "viewer/blanks/g5000/Antique-Cherry-Red_Front.jpg"
+   ],
+   "Antique-Irish-Green": [
+    "viewer/blanks/g5000/Antique-Irish-Green_Front.jpg"
+   ],
+   "Antique-Orange": [
+    "viewer/blanks/g5000/Antique-Orange_Front.jpg"
+   ],
+   "Ash-Grey": [
+    "viewer/blanks/g5000/Ash-Grey_Front.jpg"
+   ],
+   "Azalea": [
+    "viewer/blanks/g5000/Azalea_Front.jpg"
+   ],
+   "Black": [
+    "viewer/blanks/g5000/Black_Front.jpg"
+   ],
+   "Blackberry": [
+    "viewer/blanks/g5000/Blackberry_Front.jpg"
+   ],
+   "Cardinal-Red": [
+    "viewer/blanks/g5000/Cardinal-Red_Front.jpg"
+   ],
+   "Carolina-Blue": [
+    "viewer/blanks/g5000/Carolina-Blue_Front.jpg"
+   ],
+   "Charcoal": [
+    "viewer/blanks/g5000/Charcoal_Front.jpg"
+   ],
+   "Cherry-Red": [
+    "viewer/blanks/g5000/Cherry-Red_Front.jpg"
+   ],
+   "Daisy": [
+    "viewer/blanks/g5000/Daisy_Front.jpg"
+   ],
+   "Dark-Chocolate": [
+    "viewer/blanks/g5000/Dark-Chocolate_Front.jpg"
+   ],
+   "Dark-Heather": [
+    "viewer/blanks/g5000/Dark-Heather_Front.jpg"
+   ],
+   "Forest-Green": [
+    "viewer/blanks/g5000/Forest-Green_Front.jpg"
+   ],
+   "Gold": [
+    "viewer/blanks/g5000/Gold_Front.jpg"
+   ],
+   "Graphite-Heather": [
+    "viewer/blanks/g5000/Graphite-Heather_Front.jpg"
+   ],
+   "Heather-Military-Green": [
+    "viewer/blanks/g5000/Heather-Military-Green_Front.jpg"
+   ],
+   "Heather-Sapphire": [
+    "viewer/blanks/g5000/Heather-Sapphire_Front.jpg"
+   ],
+   "Heliconia": [
+    "viewer/blanks/g5000/Heliconia_Front.jpg"
+   ],
+   "Indigo-Blue": [
+    "viewer/blanks/g5000/Indigo-Blue_Front.jpg"
+   ],
+   "Irish-Green": [
+    "viewer/blanks/g5000/Irish-Green_Front.jpg"
+   ],
+   "Jade-Dome": [
+    "viewer/blanks/g5000/Jade-Dome_Front.jpg"
+   ],
+   "Kiwi": [
+    "viewer/blanks/g5000/Kiwi_Front.jpg"
+   ],
+   "Light-Blue": [
+    "viewer/blanks/g5000/Light-Blue_Front.jpg"
+   ],
+   "Light-Pink": [
+    "viewer/blanks/g5000/Light-Pink_Front.jpg"
+   ],
+   "Lilac": [
+    "viewer/blanks/g5000/Lilac_Front.jpg"
+   ],
+   "Lime": [
+    "viewer/blanks/g5000/Lime_Front.jpg"
+   ],
+   "Maroon": [
+    "viewer/blanks/g5000/Maroon_Front.jpg"
+   ],
+   "Midnight": [
+    "viewer/blanks/g5000/Midnight_Front.jpg"
+   ],
+   "Mint-Green": [
+    "viewer/blanks/g5000/Mint-Green_Front.jpg"
+   ],
+   "Natural": [
+    "viewer/blanks/g5000/Natural_Front.jpg"
+   ],
+   "Navy": [
+    "viewer/blanks/g5000/Navy_Front.jpg"
+   ],
+   "Off-White": [
+    "viewer/blanks/g5000/Off-White_Front.jpg"
+   ],
+   "Old-Gold": [
+    "viewer/blanks/g5000/Old-Gold_Front.jpg"
+   ],
+   "Orange": [
+    "viewer/blanks/g5000/Orange_Front.jpg"
+   ],
+   "Paragon": [
+    "viewer/blanks/g5000/Paragon_Front.jpg"
+   ],
+   "Pistachio": [
+    "viewer/blanks/g5000/Pistachio_Front.jpg"
+   ],
+   "Purple": [
+    "viewer/blanks/g5000/Purple_Front.jpg"
+   ],
+   "Red": [
+    "viewer/blanks/g5000/Red_Front.jpg"
+   ],
+   "Royal": [
+    "viewer/blanks/g5000/Royal_Front.jpg"
+   ],
+   "Russet": [
+    "viewer/blanks/g5000/Russet_Front.jpg"
+   ],
+   "Safety-Green": [
+    "viewer/blanks/g5000/Safety-Green_Front.jpg"
+   ],
+   "Sand": [
+    "viewer/blanks/g5000/Sand_Front.jpg"
+   ],
+   "Sapphire": [
+    "viewer/blanks/g5000/Sapphire_Front.jpg"
+   ],
+   "Sport-Grey": [
+    "viewer/blanks/g5000/Sport-Grey_Front.jpg"
+   ],
+   "Stone-Blue": [
+    "viewer/blanks/g5000/Stone-Blue_Front.jpg"
+   ],
+   "Sunset": [
+    "viewer/blanks/g5000/Sunset_Front.jpg"
+   ],
+   "Tangerine": [
+    "viewer/blanks/g5000/Tangerine_Front.jpg"
+   ],
+   "Tropical-Blue": [
+    "viewer/blanks/g5000/Tropical-Blue_Front.jpg"
+   ],
+   "Tweed": [
+    "viewer/blanks/g5000/Tweed_Front.jpg"
+   ],
+   "Violet": [
+    "viewer/blanks/g5000/Violet_Front.jpg"
+   ],
+   "White": [
+    "viewer/blanks/g5000/White_Front.jpg"
+   ],
+   "Yellow-Haze": [
+    "viewer/blanks/g5000/Yellow-Haze_Front.jpg"
+   ]
+  },
+  "guides": [
+   {
+    "src": "viewer/guides/g5000_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g5000_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ },
+ "g18000": {
+  "colors": {
+   "Antique-Cherry-Red": [
+    "viewer/blanks/g18000/Antique-Cherry-Red_Front.jpg"
+   ],
+   "Ash": [
+    "viewer/blanks/g18000/Ash_Front.jpg"
+   ],
+   "Black": [
+    "viewer/blanks/g18000/Black_Front.jpg"
+   ],
+   "Cardinal-Red": [
+    "viewer/blanks/g18000/Cardinal-Red_Front.jpg"
+   ],
+   "Carolina-Blue": [
+    "viewer/blanks/g18000/Carolina-Blue_Front.jpg"
+   ],
+   "Charcoal": [
+    "viewer/blanks/g18000/Charcoal_Front.jpg"
+   ],
+   "Coral-Silk": [
+    "viewer/blanks/g18000/Coral-Silk_Front.jpg"
+   ],
+   "Dark-Chocolate-2": [
+    "viewer/blanks/g18000/Dark-Chocolate-2_Front.jpg"
+   ],
+   "Dark-Chocolate": [
+    "viewer/blanks/g18000/Dark-Chocolate_Front.jpg"
+   ],
+   "Dark-Heather": [
+    "viewer/blanks/g18000/Dark-Heather_Front.jpg"
+   ],
+   "Forest-Green-2": [
+    "viewer/blanks/g18000/Forest-Green-2_Front.jpg"
+   ],
+   "Forest-Green": [
+    "viewer/blanks/g18000/Forest-Green_Front.jpg"
+   ],
+   "Garnet-2": [
+    "viewer/blanks/g18000/Garnet-2_Front.jpg"
+   ],
+   "Garnet": [
+    "viewer/blanks/g18000/Garnet_Front.jpg"
+   ],
+   "Gold": [
+    "viewer/blanks/g18000/Gold_Front.jpg"
+   ],
+   "Heather-Navy-2": [
+    "viewer/blanks/g18000/Heather-Navy-2_Front.jpg"
+   ],
+   "Heather-Navy": [
+    "viewer/blanks/g18000/Heather-Navy_Front.jpg"
+   ],
+   "Heather-Sport-Dark-Navy-2": [
+    "viewer/blanks/g18000/Heather-Sport-Dark-Navy-2_Front.jpg"
+   ],
+   "Heather-Sport-Dark-Navy": [
+    "viewer/blanks/g18000/Heather-Sport-Dark-Navy_Front.jpg"
+   ],
+   "Heliconia": [
+    "viewer/blanks/g18000/Heliconia_Front.jpg"
+   ],
+   "Indigo-Blue-2": [
+    "viewer/blanks/g18000/Indigo-Blue-2_Front.jpg"
+   ],
+   "Indigo-Blue": [
+    "viewer/blanks/g18000/Indigo-Blue_Front.jpg"
+   ],
+   "Irish-Green": [
+    "viewer/blanks/g18000/Irish-Green_Front.jpg"
+   ],
+   "Light-Pink": [
+    "viewer/blanks/g18000/Light-Pink_Front.jpg"
+   ],
+   "Maroon-2": [
+    "viewer/blanks/g18000/Maroon-2_Front.jpg"
+   ],
+   "Maroon": [
+    "viewer/blanks/g18000/Maroon_Front.jpg"
+   ],
+   "Military-Green": [
+    "viewer/blanks/g18000/Military-Green_Front.jpg"
+   ],
+   "Navy-2": [
+    "viewer/blanks/g18000/Navy-2_Front.jpg"
+   ],
+   "Navy": [
+    "viewer/blanks/g18000/Navy_Front.jpg"
+   ],
+   "Orange": [
+    "viewer/blanks/g18000/Orange_Front.jpg"
+   ],
+   "Purple": [
+    "viewer/blanks/g18000/Purple_Front.jpg"
+   ],
+   "Red": [
+    "viewer/blanks/g18000/Red_Front.jpg"
+   ],
+   "Royal-2": [
+    "viewer/blanks/g18000/Royal-2_Front.jpg"
+   ],
+   "Royal": [
+    "viewer/blanks/g18000/Royal_Front.jpg"
+   ],
+   "Safety-Green": [
+    "viewer/blanks/g18000/Safety-Green_Front.jpg"
+   ],
+   "Safety-Orange": [
+    "viewer/blanks/g18000/Safety-Orange_Front.jpg"
+   ],
+   "Sand": [
+    "viewer/blanks/g18000/Sand_Front.jpg"
+   ],
+   "Sapphire": [
+    "viewer/blanks/g18000/Sapphire_Front.jpg"
+   ],
+   "Sport-Grey": [
+    "viewer/blanks/g18000/Sport-Grey_Front.jpg"
+   ],
+   "White": [
+    "viewer/blanks/g18000/White_Front.jpg"
+   ]
+  },
+  "guides": [
+   {
+    "src": "viewer/guides/g18000_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g18000_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ },
+ "g18500": {
+  "colors": {
+   "Ash": [
+    "viewer/blanks/g18500/Ash_Front.jpg",
+    "viewer/blanks/g18500/Ash_Back.jpg",
+    "viewer/blanks/g18500/Ash_Seated.jpg"
+   ],
+   "Black": [
+    "viewer/blanks/g18500/Black_Front.jpg",
+    "viewer/blanks/g18500/Black_Back.jpg",
+    "viewer/blanks/g18500/Black_Seated.jpg"
+   ],
+   "Royal": [
+    "viewer/blanks/g18500/Royal_Back.jpg"
+   ]
+  },
+  "guides": [
+   {
+    "src": "viewer/guides/g18500_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g18500_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ },
+ "g5000b": {
+  "imagesFrom": "g5000",
+  "guides": [
+   {
+    "src": "viewer/guides/g5000b_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g5000_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ },
+ "g18000b": {
+  "imagesFrom": "g18000",
+  "guides": [
+   {
+    "src": "viewer/guides/g18000b_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g18000_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ },
+ "g18500b": {
+  "imagesFrom": "g18500",
+  "guides": [
+   {
+    "src": "viewer/guides/g18500b_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g18500_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ },
+ "g18600": {
+  "imagesFrom": "g18500",
+  "guides": [
+   {
+    "src": "viewer/guides/g18600_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g18500_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ },
+ "cc1717": {
+  "colors": {},
+  "guides": [
+   {
+    "src": "viewer/guides/cc1717_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g5000_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ },
+ "bc3001": {
+  "colors": {},
+  "guides": [
+   {
+    "src": "viewer/guides/bc3001_sizes.jpg",
+    "cap": "Size chart"
+   },
+   {
+    "src": "viewer/guides/g5000_front.jpg",
+    "cap": "Print placements \u2014 front"
+   },
+   {
+    "src": "viewer/guides/g18500_back.jpg",
+    "cap": "Print placements \u2014 back"
+   }
+  ]
+ }
+}
