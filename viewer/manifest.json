@@ -14,10 +14,12 @@
     "viewer/blanks/g5000/Ash-Grey_Front.jpg"
    ],
    "Azalea": [
-    "viewer/blanks/g5000/Azalea_Front.jpg"
+    "viewer/blanks/g5000/Azalea_Front.jpg",
+    "viewer/blanks/g5000/Azalea_Selfie.jpg"
    ],
    "Black": [
-    "viewer/blanks/g5000/Black_Front.jpg"
+    "viewer/blanks/g5000/Black_Front.jpg",
+    "viewer/blanks/g5000/Black_Selfie.jpg"
    ],
    "Blackberry": [
     "viewer/blanks/g5000/Blackberry_Front.jpg"
@@ -29,7 +31,8 @@
     "viewer/blanks/g5000/Carolina-Blue_Front.jpg"
    ],
    "Charcoal": [
-    "viewer/blanks/g5000/Charcoal_Front.jpg"
+    "viewer/blanks/g5000/Charcoal_Front.jpg",
+    "viewer/blanks/g5000/Charcoal_Selfie.jpg"
    ],
    "Cherry-Red": [
     "viewer/blanks/g5000/Cherry-Red_Front.jpg"
@@ -38,19 +41,24 @@
     "viewer/blanks/g5000/Daisy_Front.jpg"
    ],
    "Dark-Chocolate": [
-    "viewer/blanks/g5000/Dark-Chocolate_Front.jpg"
+    "viewer/blanks/g5000/Dark-Chocolate_Front.jpg",
+    "viewer/blanks/g5000/Dark-Chocolate_Selfie.jpg"
    ],
    "Dark-Heather": [
-    "viewer/blanks/g5000/Dark-Heather_Front.jpg"
+    "viewer/blanks/g5000/Dark-Heather_Front.jpg",
+    "viewer/blanks/g5000/Dark-Heather_Selfie.jpg"
    ],
    "Forest-Green": [
-    "viewer/blanks/g5000/Forest-Green_Front.jpg"
+    "viewer/blanks/g5000/Forest-Green_Front.jpg",
+    "viewer/blanks/g5000/Forest-Green_Selfie.jpg"
    ],
    "Gold": [
-    "viewer/blanks/g5000/Gold_Front.jpg"
+    "viewer/blanks/g5000/Gold_Front.jpg",
+    "viewer/blanks/g5000/Gold_Selfie.jpg"
    ],
    "Graphite-Heather": [
-    "viewer/blanks/g5000/Graphite-Heather_Front.jpg"
+    "viewer/blanks/g5000/Graphite-Heather_Front.jpg",
+    "viewer/blanks/g5000/Graphite-Heather_Selfie.jpg"
    ],
    "Heather-Military-Green": [
     "viewer/blanks/g5000/Heather-Military-Green_Front.jpg"
@@ -59,25 +67,31 @@
     "viewer/blanks/g5000/Heather-Sapphire_Front.jpg"
    ],
    "Heliconia": [
-    "viewer/blanks/g5000/Heliconia_Front.jpg"
+    "viewer/blanks/g5000/Heliconia_Front.jpg",
+    "viewer/blanks/g5000/Heliconia_Selfie.jpg"
    ],
    "Indigo-Blue": [
-    "viewer/blanks/g5000/Indigo-Blue_Front.jpg"
+    "viewer/blanks/g5000/Indigo-Blue_Front.jpg",
+    "viewer/blanks/g5000/Indigo-Blue_Selfie.jpg"
    ],
    "Irish-Green": [
-    "viewer/blanks/g5000/Irish-Green_Front.jpg"
+    "viewer/blanks/g5000/Irish-Green_Front.jpg",
+    "viewer/blanks/g5000/Irish-Green_Selfie.jpg"
    ],
    "Jade-Dome": [
     "viewer/blanks/g5000/Jade-Dome_Front.jpg"
    ],
    "Kiwi": [
-    "viewer/blanks/g5000/Kiwi_Front.jpg"
+    "viewer/blanks/g5000/Kiwi_Front.jpg",
+    "viewer/blanks/g5000/Kiwi_Selfie.jpg"
    ],
    "Light-Blue": [
-    "viewer/blanks/g5000/Light-Blue_Front.jpg"
+    "viewer/blanks/g5000/Light-Blue_Front.jpg",
+    "viewer/blanks/g5000/Light-Blue_Selfie.jpg"
    ],
    "Light-Pink": [
-    "viewer/blanks/g5000/Light-Pink_Front.jpg"
+    "viewer/blanks/g5000/Light-Pink_Front.jpg",
+    "viewer/blanks/g5000/Light-Pink_Selfie.jpg"
    ],
    "Lilac": [
     "viewer/blanks/g5000/Lilac_Front.jpg"
@@ -86,7 +100,8 @@
     "viewer/blanks/g5000/Lime_Front.jpg"
    ],
    "Maroon": [
-    "viewer/blanks/g5000/Maroon_Front.jpg"
+    "viewer/blanks/g5000/Maroon_Front.jpg",
+    "viewer/blanks/g5000/Maroon_Selfie.jpg"
    ],
    "Midnight": [
     "viewer/blanks/g5000/Midnight_Front.jpg"
@@ -95,19 +110,23 @@
     "viewer/blanks/g5000/Mint-Green_Front.jpg"
    ],
    "Natural": [
-    "viewer/blanks/g5000/Natural_Front.jpg"
+    "viewer/blanks/g5000/Natural_Front.jpg",
+    "viewer/blanks/g5000/Natural_Selfie.jpg"
    ],
    "Navy": [
-    "viewer/blanks/g5000/Navy_Front.jpg"
+    "viewer/blanks/g5000/Navy_Front.jpg",
+    "viewer/blanks/g5000/Navy_Selfie.jpg"
    ],
    "Off-White": [
     "viewer/blanks/g5000/Off-White_Front.jpg"
    ],
    "Old-Gold": [
-    "viewer/blanks/g5000/Old-Gold_Front.jpg"
+    "viewer/blanks/g5000/Old-Gold_Front.jpg",
+    "viewer/blanks/g5000/Old-Gold_Selfie.jpg"
    ],
    "Orange": [
-    "viewer/blanks/g5000/Orange_Front.jpg"
+    "viewer/blanks/g5000/Orange_Front.jpg",
+    "viewer/blanks/g5000/Orange_Selfie.jpg"
    ],
    "Paragon": [
     "viewer/blanks/g5000/Paragon_Front.jpg"
@@ -116,13 +135,16 @@
     "viewer/blanks/g5000/Pistachio_Front.jpg"
    ],
    "Purple": [
-    "viewer/blanks/g5000/Purple_Front.jpg"
+    "viewer/blanks/g5000/Purple_Front.jpg",
+    "viewer/blanks/g5000/Purple_Selfie.jpg"
    ],
    "Red": [
-    "viewer/blanks/g5000/Red_Front.jpg"
+    "viewer/blanks/g5000/Red_Front.jpg",
+    "viewer/blanks/g5000/Red_Selfie.jpg"
    ],
    "Royal": [
-    "viewer/blanks/g5000/Royal_Front.jpg"
+    "viewer/blanks/g5000/Royal_Front.jpg",
+    "viewer/blanks/g5000/Royal_Selfie.jpg"
    ],
    "Russet": [
     "viewer/blanks/g5000/Russet_Front.jpg"
@@ -131,13 +153,15 @@
     "viewer/blanks/g5000/Safety-Green_Front.jpg"
    ],
    "Sand": [
-    "viewer/blanks/g5000/Sand_Front.jpg"
+    "viewer/blanks/g5000/Sand_Front.jpg",
+    "viewer/blanks/g5000/Sand_Selfie.jpg"
    ],
    "Sapphire": [
     "viewer/blanks/g5000/Sapphire_Front.jpg"
    ],
    "Sport-Grey": [
-    "viewer/blanks/g5000/Sport-Grey_Front.jpg"
+    "viewer/blanks/g5000/Sport-Grey_Front.jpg",
+    "viewer/blanks/g5000/Sport-Grey_Selfie.jpg"
    ],
    "Stone-Blue": [
     "viewer/blanks/g5000/Stone-Blue_Front.jpg"
@@ -149,7 +173,8 @@
     "viewer/blanks/g5000/Tangerine_Front.jpg"
    ],
    "Tropical-Blue": [
-    "viewer/blanks/g5000/Tropical-Blue_Front.jpg"
+    "viewer/blanks/g5000/Tropical-Blue_Front.jpg",
+    "viewer/blanks/g5000/Tropical-Blue_Selfie.jpg"
    ],
    "Tweed": [
     "viewer/blanks/g5000/Tweed_Front.jpg"
@@ -158,10 +183,29 @@
     "viewer/blanks/g5000/Violet_Front.jpg"
    ],
    "White": [
-    "viewer/blanks/g5000/White_Front.jpg"
+    "viewer/blanks/g5000/White_Front.jpg",
+    "viewer/blanks/g5000/White_Selfie.jpg"
    ],
    "Yellow-Haze": [
     "viewer/blanks/g5000/Yellow-Haze_Front.jpg"
+   ],
+   "Antique-Sapphire": [
+    "viewer/blanks/g5000/Antique-Sapphire_Selfie.jpg"
+   ],
+   "Ash": [
+    "viewer/blanks/g5000/Ash_Selfie.jpg"
+   ],
+   "Brown-Savana": [
+    "viewer/blanks/g5000/Brown-Savana_Selfie.jpg"
+   ],
+   "Columbia-Blue": [
+    "viewer/blanks/g5000/Columbia-Blue_Selfie.jpg"
+   ],
+   "Coral-Silk": [
+    "viewer/blanks/g5000/Coral-Silk_Selfie.jpg"
+   ],
+   "Military-Green": [
+    "viewer/blanks/g5000/Military-Green_Selfie.jpg"
    ]
   },
   "guides": [
@@ -417,7 +461,179 @@
   ]
  },
  "cc1717": {
-  "colors": {},
+  "colors": {
+   "Banana": [
+    "viewer/blanks/cc1717/Banana_Front.jpg"
+   ],
+   "Bay": [
+    "viewer/blanks/cc1717/Bay_Front.jpg"
+   ],
+   "Berry": [
+    "viewer/blanks/cc1717/Berry_Front.jpg"
+   ],
+   "Black": [
+    "viewer/blanks/cc1717/Black_Front.jpg",
+    "viewer/blanks/cc1717/Black_Fall.jpg"
+   ],
+   "Blossom": [
+    "viewer/blanks/cc1717/Blossom_Front.jpg"
+   ],
+   "Blue-Spruce": [
+    "viewer/blanks/cc1717/Blue-Spruce_Front.jpg",
+    "viewer/blanks/cc1717/Blue-Spruce_Fall.jpg"
+   ],
+   "Brick": [
+    "viewer/blanks/cc1717/Brick_Front.jpg"
+   ],
+   "Bright-Salmon": [
+    "viewer/blanks/cc1717/Bright-Salmon_Front.jpg"
+   ],
+   "Burnt-Orange": [
+    "viewer/blanks/cc1717/Burnt-Orange_Front.jpg"
+   ],
+   "Butter": [
+    "viewer/blanks/cc1717/Butter_Front.jpg"
+   ],
+   "Chalky-Mint": [
+    "viewer/blanks/cc1717/Chalky-Mint_Front.jpg"
+   ],
+   "Chambray": [
+    "viewer/blanks/cc1717/Chambray_Front.jpg"
+   ],
+   "Crimson": [
+    "viewer/blanks/cc1717/Crimson_Front.jpg"
+   ],
+   "Denim": [
+    "viewer/blanks/cc1717/Denim_Front.jpg"
+   ],
+   "Espresso": [
+    "viewer/blanks/cc1717/Espresso_Front.jpg",
+    "viewer/blanks/cc1717/Espresso_Fall.jpg"
+   ],
+   "Flo-Blue": [
+    "viewer/blanks/cc1717/Flo-Blue_Front.jpg"
+   ],
+   "Grape": [
+    "viewer/blanks/cc1717/Grape_Front.jpg"
+   ],
+   "Grey": [
+    "viewer/blanks/cc1717/Grey_Front.jpg",
+    "viewer/blanks/cc1717/Grey_Fall.jpg"
+   ],
+   "Heliconia": [
+    "viewer/blanks/cc1717/Heliconia_Front.jpg"
+   ],
+   "Hemp": [
+    "viewer/blanks/cc1717/Hemp_Front.jpg"
+   ],
+   "Ice-Blue": [
+    "viewer/blanks/cc1717/Ice-Blue_Front.jpg"
+   ],
+   "Ivory": [
+    "viewer/blanks/cc1717/Ivory_Front.jpg",
+    "viewer/blanks/cc1717/Ivory_Fall.jpg"
+   ],
+   "Khaki": [
+    "viewer/blanks/cc1717/Khaki_Front.jpg"
+   ],
+   "Light-Green": [
+    "viewer/blanks/cc1717/Light-Green_Front.jpg"
+   ],
+   "Midnight": [
+    "viewer/blanks/cc1717/Midnight_Front.jpg"
+   ],
+   "Moss": [
+    "viewer/blanks/cc1717/Moss_Front.jpg",
+    "viewer/blanks/cc1717/Moss_Fall.jpg"
+   ],
+   "Mustard": [
+    "viewer/blanks/cc1717/Mustard_Front.jpg"
+   ],
+   "Navy": [
+    "viewer/blanks/cc1717/Navy_Front.jpg"
+   ],
+   "Neon-Violet": [
+    "viewer/blanks/cc1717/Neon-Violet_Front.jpg"
+   ],
+   "Orchid": [
+    "viewer/blanks/cc1717/Orchid_Front.jpg",
+    "viewer/blanks/cc1717/Orchid_Fall.jpg"
+   ],
+   "Peachy": [
+    "viewer/blanks/cc1717/Peachy_Front.jpg"
+   ],
+   "Pepper": [
+    "viewer/blanks/cc1717/Pepper_Front.jpg",
+    "viewer/blanks/cc1717/Pepper_Fall.jpg"
+   ],
+   "Paprika": [
+    "viewer/blanks/cc1717/Paprika_Front.jpg"
+   ],
+   "Red": [
+    "viewer/blanks/cc1717/Red_Front.jpg"
+   ],
+   "Sage": [
+    "viewer/blanks/cc1717/Sage_Front.jpg"
+   ],
+   "Seafoam": [
+    "viewer/blanks/cc1717/Seafoam_Front.jpg"
+   ],
+   "Terracotta": [
+    "viewer/blanks/cc1717/Terracotta_Front.jpg",
+    "viewer/blanks/cc1717/Terracotta_Fall.jpg"
+   ],
+   "True-Navy": [
+    "viewer/blanks/cc1717/True-Navy_Front.jpg"
+   ],
+   "Violet": [
+    "viewer/blanks/cc1717/Violet_Front.jpg",
+    "viewer/blanks/cc1717/Violet_Fall.jpg"
+   ],
+   "Washed-Denim": [
+    "viewer/blanks/cc1717/Washed-Denim_Front.jpg"
+   ],
+   "Watermelon": [
+    "viewer/blanks/cc1717/Watermelon_Front.jpg"
+   ],
+   "White": [
+    "viewer/blanks/cc1717/White_Front.jpg",
+    "viewer/blanks/cc1717/White_Fall.jpg"
+   ],
+   "Yam": [
+    "viewer/blanks/cc1717/Yam_Front.jpg",
+    "viewer/blanks/cc1717/Yam_Fall.jpg"
+   ],
+   "Autumn": [
+    "viewer/blanks/cc1717/Autumn_Fall.jpg"
+   ],
+   "Brown": [
+    "viewer/blanks/cc1717/Brown_Fall.jpg"
+   ],
+   "Charcoal": [
+    "viewer/blanks/cc1717/Charcoal_Fall.jpg"
+   ],
+   "Dark-Grey-Heather": [
+    "viewer/blanks/cc1717/Dark-Grey-Heather_Fall.jpg"
+   ],
+   "Heather-Team-Purple": [
+    "viewer/blanks/cc1717/Heather-Team-Purple_Fall.jpg"
+   ],
+   "Military-Green": [
+    "viewer/blanks/cc1717/Military-Green_Fall.jpg"
+   ],
+   "Chili": [
+    "viewer/blanks/cc1717/Chili_Front.jpg"
+   ],
+   "Blue-Jean": [
+    "viewer/blanks/cc1717/Blue-Jean_Front.jpg"
+   ],
+   "Lagoon": [
+    "viewer/blanks/cc1717/Lagoon_Front.jpg"
+   ],
+   "Sandstone": [
+    "viewer/blanks/cc1717/Sandstone_Front.jpg"
+   ]
+  },
   "guides": [
    {
     "src": "viewer/guides/cc1717_sizes.jpg",
@@ -434,7 +650,254 @@
   ]
  },
  "bc3001": {
-  "colors": {},
+  "colors": {
+   "Army": [
+    "viewer/blanks/bc3001/Army_Front.jpg"
+   ],
+   "Ash": [
+    "viewer/blanks/bc3001/Ash_Front.jpg"
+   ],
+   "Asphalt": [
+    "viewer/blanks/bc3001/Asphalt_Front.jpg",
+    "viewer/blanks/bc3001/Asphalt_Couch.jpg"
+   ],
+   "Atlantic": [
+    "viewer/blanks/bc3001/Atlantic_Front.jpg"
+   ],
+   "Black": [
+    "viewer/blanks/bc3001/Black_Front.jpg",
+    "viewer/blanks/bc3001/Black_Couch.jpg"
+   ],
+   "Blue-Storm": [
+    "viewer/blanks/bc3001/Blue-Storm_Front.jpg"
+   ],
+   "Burnt-Orange": [
+    "viewer/blanks/bc3001/Burnt-Orange_Front.jpg",
+    "viewer/blanks/bc3001/Burnt-Orange_Couch.jpg"
+   ],
+   "Cardinal": [
+    "viewer/blanks/bc3001/Cardinal_Front.jpg"
+   ],
+   "Carolina-Blue": [
+    "viewer/blanks/bc3001/Carolina-Blue_Front.jpg"
+   ],
+   "Charity-Pink": [
+    "viewer/blanks/bc3001/Charity-Pink_Front.jpg",
+    "viewer/blanks/bc3001/Charity-Pink_Couch.jpg"
+   ],
+   "Chestnut": [
+    "viewer/blanks/bc3001/Chestnut_Front.jpg"
+   ],
+   "Clay": [
+    "viewer/blanks/bc3001/Clay_Front.jpg"
+   ],
+   "Cool-Blue": [
+    "viewer/blanks/bc3001/Cool-Blue_Front.jpg"
+   ],
+   "Coral": [
+    "viewer/blanks/bc3001/Coral_Front.jpg"
+   ],
+   "Dark-Grey": [
+    "viewer/blanks/bc3001/Dark-Grey_Front.jpg"
+   ],
+   "Dark-Lavender": [
+    "viewer/blanks/bc3001/Dark-Lavender_Front.jpg"
+   ],
+   "Dark-Olive": [
+    "viewer/blanks/bc3001/Dark-Olive_Front.jpg"
+   ],
+   "Deep-Teal": [
+    "viewer/blanks/bc3001/Deep-Teal_Front.jpg"
+   ],
+   "Dust": [
+    "viewer/blanks/bc3001/Dust_Front.jpg"
+   ],
+   "Evergreen": [
+    "viewer/blanks/bc3001/Evergreen_Front.jpg"
+   ],
+   "Forest-Green": [
+    "viewer/blanks/bc3001/Forest-Green_Front.jpg"
+   ],
+   "Fuchsia": [
+    "viewer/blanks/bc3001/Fuchsia_Front.jpg"
+   ],
+   "Lavender-Blue": [
+    "viewer/blanks/bc3001/Lavender-Blue_Front.jpg"
+   ],
+   "Lavender-Dust": [
+    "viewer/blanks/bc3001/Lavender-Dust_Front.jpg"
+   ],
+   "Light-Violet": [
+    "viewer/blanks/bc3001/Light-Violet_Front.jpg"
+   ],
+   "Lilac": [
+    "viewer/blanks/bc3001/Lilac_Front.jpg"
+   ],
+   "Marine": [
+    "viewer/blanks/bc3001/Marine_Front.jpg"
+   ],
+   "Maroon": [
+    "viewer/blanks/bc3001/Maroon_Front.jpg",
+    "viewer/blanks/bc3001/Maroon_Couch.jpg"
+   ],
+   "Mauve": [
+    "viewer/blanks/bc3001/Mauve_Front.jpg"
+   ],
+   "Military-Green": [
+    "viewer/blanks/bc3001/Military-Green_Front.jpg",
+    "viewer/blanks/bc3001/Military-Green_Couch.jpg"
+   ],
+   "Mint": [
+    "viewer/blanks/bc3001/Mint_Front.jpg"
+   ],
+   "Mustard": [
+    "viewer/blanks/bc3001/Mustard_Front.jpg"
+   ],
+   "Navy": [
+    "viewer/blanks/bc3001/Navy_Front.jpg"
+   ],
+   "Ocean-Blue": [
+    "viewer/blanks/bc3001/Ocean-Blue_Front.jpg"
+   ],
+   "Orange": [
+    "viewer/blanks/bc3001/Orange_Front.jpg"
+   ],
+   "Orchid": [
+    "viewer/blanks/bc3001/Orchid_Front.jpg"
+   ],
+   "Oxblood-Black": [
+    "viewer/blanks/bc3001/Oxblood-Black_Front.jpg"
+   ],
+   "Pebble-Brown": [
+    "viewer/blanks/bc3001/Pebble-Brown_Front.jpg"
+   ],
+   "Pine": [
+    "viewer/blanks/bc3001/Pine_Front.jpg"
+   ],
+   "Pink": [
+    "viewer/blanks/bc3001/Pink_Front.jpg"
+   ],
+   "Poppy": [
+    "viewer/blanks/bc3001/Poppy_Front.jpg"
+   ],
+   "Purple-Storm": [
+    "viewer/blanks/bc3001/Purple-Storm_Front.jpg"
+   ],
+   "Red": [
+    "viewer/blanks/bc3001/Red_Front.jpg",
+    "viewer/blanks/bc3001/Red_Couch.jpg"
+   ],
+   "Royal-Purple": [
+    "viewer/blanks/bc3001/Royal-Purple_Front.jpg"
+   ],
+   "Rust": [
+    "viewer/blanks/bc3001/Rust_Front.jpg"
+   ],
+   "Silver": [
+    "viewer/blanks/bc3001/Silver_Front.jpg"
+   ],
+   "Slate": [
+    "viewer/blanks/bc3001/Slate_Front.jpg"
+   ],
+   "Soft-Pink": [
+    "viewer/blanks/bc3001/Soft-Pink_Front.jpg",
+    "viewer/blanks/bc3001/Soft-Pink_Couch.jpg"
+   ],
+   "Solid-Athletic-Grey": [
+    "viewer/blanks/bc3001/Solid-Athletic-Grey_Front.jpg"
+   ],
+   "Steel-Blue": [
+    "viewer/blanks/bc3001/Steel-Blue_Front.jpg"
+   ],
+   "Storm": [
+    "viewer/blanks/bc3001/Storm_Front.jpg"
+   ],
+   "Sunset": [
+    "viewer/blanks/bc3001/Sunset_Front.jpg"
+   ],
+   "Synthetic-Green": [
+    "viewer/blanks/bc3001/Synthetic-Green_Front.jpg"
+   ],
+   "Tan": [
+    "viewer/blanks/bc3001/Tan_Front.jpg",
+    "viewer/blanks/bc3001/Tan_Couch.jpg"
+   ],
+   "Team-Navy": [
+    "viewer/blanks/bc3001/Team-Navy_Front.jpg"
+   ],
+   "Team-Purple": [
+    "viewer/blanks/bc3001/Team-Purple_Front.jpg"
+   ],
+   "Toast": [
+    "viewer/blanks/bc3001/Toast_Front.jpg"
+   ],
+   "Vintage-Black": [
+    "viewer/blanks/bc3001/Vintage-Black_Front.jpg"
+   ],
+   "Vintage-Brown": [
+    "viewer/blanks/bc3001/Vintage-Brown_Front.jpg"
+   ],
+   "Vintage-Denim": [
+    "viewer/blanks/bc3001/Vintage-Denim_Front.jpg"
+   ],
+   "Vintage-Navy": [
+    "viewer/blanks/bc3001/Vintage-Navy_Front.jpg"
+   ],
+   "Vintage-Red": [
+    "viewer/blanks/bc3001/Vintage-Red_Front.jpg"
+   ],
+   "Vintage-White": [
+    "viewer/blanks/bc3001/Vintage-White_Front.jpg"
+   ],
+   "Yellow": [
+    "viewer/blanks/bc3001/Yellow_Front.jpg"
+   ],
+   "Athletic-Heather": [
+    "viewer/blanks/bc3001/Athletic-Heather_Couch.jpg"
+   ],
+   "Autumn": [
+    "viewer/blanks/bc3001/Autumn_Couch.jpg"
+   ],
+   "Dark-Grey-Heather": [
+    "viewer/blanks/bc3001/Dark-Grey-Heather_Couch.jpg"
+   ],
+   "Dusty-Blue": [
+    "viewer/blanks/bc3001/Dusty-Blue_Couch.jpg"
+   ],
+   "Gold": [
+    "viewer/blanks/bc3001/Gold_Couch.jpg"
+   ],
+   "Heather-Brown": [
+    "viewer/blanks/bc3001/Heather-Brown_Couch.jpg"
+   ],
+   "Heather-Forest-Green": [
+    "viewer/blanks/bc3001/Heather-Forest-Green_Couch.jpg"
+   ],
+   "Heather-Navy": [
+    "viewer/blanks/bc3001/Heather-Navy_Couch.jpg"
+   ],
+   "Heather-Peach": [
+    "viewer/blanks/bc3001/Heather-Peach_Couch.jpg"
+   ],
+   "Heather-Team-Purple": [
+    "viewer/blanks/bc3001/Heather-Team-Purple_Couch.jpg"
+   ],
+   "Light-Blue": [
+    "viewer/blanks/bc3001/Light-Blue_Couch.jpg"
+   ],
+   "Natural": [
+    "viewer/blanks/bc3001/Natural_Couch.jpg"
+   ],
+   "Pebble": [
+    "viewer/blanks/bc3001/Pebble_Couch.jpg"
+   ],
+   "Soft-Cream": [
+    "viewer/blanks/bc3001/Soft-Cream_Couch.jpg"
+   ],
+   "White": [
+    "viewer/blanks/bc3001/White_Couch.jpg"
+   ]
+  },
   "guides": [
    {
     "src": "viewer/guides/bc3001_sizes.jpg",
