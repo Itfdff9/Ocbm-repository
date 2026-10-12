@@ -1,0 +1,242 @@
+{
+ "Woodland_Front": {
+  "src": "src/Screenshot_20261012_133353_Chrome.jpg",
+  "box": [
+   56,
+   652,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Woodland_Back": {
+  "src": "src/Screenshot_20261012_133356_Chrome.jpg",
+  "box": [
+   56,
+   652,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Desert_Front": {
+  "src": "src/Screenshot_20261012_133403_Chrome.jpg",
+  "box": [
+   56,
+   762,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Desert_Back": {
+  "src": "src/Screenshot_20261012_133404_Chrome.jpg",
+  "box": [
+   56,
+   762,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Winter_Front": {
+  "src": "src/Screenshot_20261012_133408_Chrome.jpg",
+  "box": [
+   56,
+   749,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Winter_Back": {
+  "src": "src/Screenshot_20261012_133411_Chrome.jpg",
+  "box": [
+   56,
+   627,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Pink_Front": {
+  "src": "src/Screenshot_20261012_133414_Chrome.jpg",
+  "box": [
+   56,
+   804,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Pink_Back": {
+  "src": "src/Screenshot_20261012_133417_Chrome.jpg",
+  "box": [
+   56,
+   803,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Red_Front": {
+  "src": "src/Screenshot_20261012_133422_Chrome.jpg",
+  "box": [
+   56,
+   963,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Red_Back": {
+  "src": "src/Screenshot_20261012_133424_Chrome.jpg",
+  "box": [
+   56,
+   960,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Blue_Front": {
+  "src": "src/Screenshot_20261012_133428_Chrome.jpg",
+  "box": [
+   56,
+   949,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Blue_Back": {
+  "src": "src/Screenshot_20261012_133430_Chrome.jpg",
+  "box": [
+   56,
+   949,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Black_Front": {
+  "src": "src/Screenshot_20261012_133435_Chrome.jpg",
+  "box": [
+   56,
+   531,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Black_Back": {
+  "src": "src/Screenshot_20261012_133437_Chrome.jpg",
+  "box": [
+   56,
+   565,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Navy_Front": {
+  "src": "src/Screenshot_20261012_133442_Chrome.jpg",
+  "box": [
+   56,
+   667,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ },
+ "Navy_Back": {
+  "src": "src/Screenshot_20261012_133444_Chrome.jpg",
+  "box": [
+   56,
+   667,
+   1329,
+   1364
+  ],
+  "badge": [
+   26,
+   26,
+   375,
+   104
+  ]
+ }
+}

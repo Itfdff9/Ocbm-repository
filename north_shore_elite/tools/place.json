@@ -1,0 +1,74 @@
+{
+ "Woodland_Front": {
+  "cx_body": 980,
+  "vy": 500,
+  "body_w": 800,
+  "ppi": 34.78,
+  "logo_px": 122,
+  "cx": 1119,
+  "cy": 632
+ },
+ "Desert_Front": {
+  "cx_body": 980,
+  "vy": 490,
+  "body_w": 800,
+  "ppi": 34.78,
+  "logo_px": 122,
+  "cx": 1119,
+  "cy": 622
+ },
+ "Winter_Front": {
+  "cx_body": 990,
+  "vy": 500,
+  "body_w": 800,
+  "ppi": 34.78,
+  "logo_px": 122,
+  "cx": 1129,
+  "cy": 632
+ },
+ "Pink_Front": {
+  "cx_body": 980,
+  "vy": 510,
+  "body_w": 800,
+  "ppi": 34.78,
+  "logo_px": 122,
+  "cx": 1119,
+  "cy": 642
+ },
+ "Red_Front": {
+  "cx_body": 1000,
+  "vy": 500,
+  "body_w": 800,
+  "ppi": 34.78,
+  "logo_px": 122,
+  "cx": 1139,
+  "cy": 632
+ },
+ "Blue_Front": {
+  "cx_body": 980,
+  "vy": 460,
+  "body_w": 840,
+  "ppi": 36.52,
+  "logo_px": 128,
+  "cx": 1126,
+  "cy": 599
+ },
+ "Black_Front": {
+  "cx_body": 990,
+  "vy": 540,
+  "body_w": 660,
+  "ppi": 28.7,
+  "logo_px": 100,
+  "cx": 1105,
+  "cy": 649
+ },
+ "Navy_Front": {
+  "cx_body": 1010,
+  "vy": 550,
+  "body_w": 700,
+  "ppi": 30.43,
+  "logo_px": 107,
+  "cx": 1132,
+  "cy": 666
+ }
+}

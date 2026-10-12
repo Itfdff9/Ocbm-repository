@@ -1,0 +1,10 @@
+{
+ "Woodland_Back": {"cx": 990, "hood_y": 740, "body_w": 640},
+ "Desert_Back":   {"cx": 990, "hood_y": 710, "body_w": 660},
+ "Winter_Back":   {"cx": 1000, "hood_y": 690, "body_w": 640},
+ "Pink_Back":     {"cx": 980, "hood_y": 710, "body_w": 630},
+ "Red_Back":      {"cx": 1000, "hood_y": 660, "body_w": 640},
+ "Blue_Back":     {"cx": 980, "hood_y": 690, "body_w": 670},
+ "Black_Back":    {"cx": 980, "hood_y": 600, "body_w": 600},
+ "Navy_Back":     {"cx": 980, "hood_y": 600, "body_w": 620}
+}
