@@ -1,5 +1,5 @@
 """Pat-Med Varsity Raiderettes SENIOR 2027 — rebuilt as clean artwork (fonts + traced dancer), transparent, hard alpha.
-usage: python3 build_senior.py OUT.png CANVAS_PX DPI [YEAR]"""
+usage: python3 build_senior.py OUT.png CANVAS_PX DPI [YEAR] [--stars]   (stars off by default — Brian wants them removed)"""
 import sys, math, pickle, numpy as np, cv2, cairocffi as cairo
 from PIL import Image, ImageDraw, ImageFont
 OSW="/home/claude/ocbm-repository/raiderettes/senior_2027/oswald-latin-700-normal.ttf"
@@ -62,7 +62,7 @@ def star(R):
         r=R if i%2==0 else R*0.382; a=math.radians(-90+36*i); pts.append((r*math.cos(a),r*math.sin(a)))
     return pts
 
-def render(canvas_px, margin_px, year="2027"):
+def render(canvas_px, margin_px, year="2027", stars=False):
     x0,y0,x1,y1=SRC_BOX; S=(canvas_px-2*margin_px)/(y1-y0)
     ox=canvas_px/2-S*(x0+x1)/2; oy=canvas_px/2-S*(y0+y1)/2
     T=lambda x,y:(ox+S*x, oy+S*y)
@@ -99,7 +99,7 @@ def render(canvas_px, margin_px, year="2027"):
     capd=glyph_mask("2",OSW,1000).shape[0]/1000
     for ch,(x,y,w,h) in zip(year,YEAR_BOX):
         paste(cv,flat(glyph_mask(ch,OSW,int(107*S/capd)),WHITE),*T(x+w/2,y+h/2))
-    for x,y,w,h in STARS:
+    for x,y,w,h in (STARS if stars else []):
         Rr=w*S/(2*math.sin(math.radians(72))); cx,cy=T(x+w/2,y+h/2); cy+=0.0955*Rr
         surf=cairo.ImageSurface(cairo.FORMAT_A8,canvas_px,canvas_px); ctx=cairo.Context(surf)
         pts=star(Rr); ctx.move_to(cx+pts[0][0],cy+pts[0][1])
@@ -112,5 +112,6 @@ def render(canvas_px, margin_px, year="2027"):
     return Image.fromarray(cv,"RGBA")
 
 if __name__=="__main__":
-    out=sys.argv[1]; px=int(sys.argv[2]); dpi=int(sys.argv[3]); yr=sys.argv[4] if len(sys.argv)>4 else "2027"
-    im=render(px, int(0.25*dpi), yr); im.save(out,dpi=(dpi,dpi)); print(out, im.size)
+    args=[a for a in sys.argv[1:] if not a.startswith("--")]
+    out=args[0]; px=int(args[1]); dpi=int(args[2]); yr=args[3] if len(args)>3 else "2027"
+    im=render(px, int(0.25*dpi), yr, stars="--stars" in sys.argv); im.save(out,dpi=(dpi,dpi)); print(out, im.size)
