@@ -58,7 +58,21 @@ def script_rgba(txt, font, thick, red, key=0):
     ys, xs = np.where(kl)
     return Image.fromarray(rgba[ys.min():ys.max() + 1, xs.min():xs.max() + 1])
 
-def build(block_text, script_text, arch=True, script_frac=0.5, script_h=2.4, script_drop=0.35, script_wt=0.05):
+def full_script(txt, target_w, target_h, thick, kmax=1.6):
+    """script sized to target height, then widened (max 1.6x) to reach target width"""
+    red, key = int(0.08 * DPI), int(0.035 * DPI)
+    extra = 2 * (thick + red + key)
+    f0 = ImageFont.truetype(SCRIPT, 400); m0 = text_mask(txt, f0, pad=50)
+    ys, xs = np.where(m0); h0, w0 = np.ptp(ys) + 1, np.ptp(xs) + 1
+    fs = int(400 * (target_h - extra) / h0)
+    s = script_rgba(txt, ImageFont.truetype(SCRIPT, fs), thick, red, key)
+    k = min(kmax, target_w / s.width)
+    if k < 1: s = s.resize((int(s.width * k), int(s.height * k)), Image.LANCZOS)
+    else: s = s.resize((int(s.width * k), s.height), Image.LANCZOS)
+    print("script natural ratio %.2f, widened x%.2f" % (w0 / h0, max(k, 1)))
+    return s
+
+def build(block_text, script_text, arch=True, script_frac=0.5, script_h=2.4, script_drop=0.35, script_wt=0.05, script_full=False):
     """block_text in varsity letters across the full 40 in; script_text overlapping the middle."""
     block_text = block_text.upper()
     canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
@@ -94,6 +108,25 @@ def build(block_text, script_text, arch=True, script_frac=0.5, script_h=2.4, scr
         else:
             l2 = l; y = H / 2
         canvas.alpha_composite(l2, (int(x - l2.width / 2), int(y - l2.height / 2)))
+    if not script_text.strip():
+        a = np.asarray(canvas).copy(); a[..., 3] = np.where(a[..., 3] >= 128, 255, 0)
+        return Image.fromarray(a)
+    if script_full:
+        s = full_script(script_text, int(span * 0.985), H - 2 * pad - rise, int(script_wt * DPI))
+        flat_h = s.height
+        if arch:   # bend the script along the same arch as the letters
+            sh, sw = s.height, s.width
+            xs_ = np.arange(sw, dtype=np.float32) + (cx - sw / 2) - cx
+            dys = (R - np.sqrt(np.maximum(0, R * R - xs_ ** 2))).astype(np.float32)
+            outh = sh + rise
+            map_x = np.tile(np.arange(sw, dtype=np.float32), (outh, 1))
+            map_y = np.arange(outh, dtype=np.float32)[:, None] - dys[None, :]
+            arr = cv2.remap(np.asarray(s), map_x, map_y, cv2.INTER_NEAREST, borderMode=cv2.BORDER_CONSTANT, borderValue=(0, 0, 0, 0))
+            s = Image.fromarray(arr)
+        yoff = int(max(0, (H - 2 * pad - rise) - flat_h) * 0.62)   # sit a little below the middle of the letters
+        canvas.alpha_composite(s, (int(cx - s.width / 2), int(pad + yoff)))
+        a = np.asarray(canvas).copy(); a[..., 3] = np.where(a[..., 3] >= 128, 255, 0)
+        return Image.fromarray(a)
     sfont = ImageFont.truetype(SCRIPT, int(script_h * DPI / 0.62))
     s = script_rgba(script_text, sfont, int(script_wt * DPI), int(0.075 * DPI), int(0.035 * DPI))
     tw = int(span * script_frac)
@@ -113,4 +146,8 @@ if __name__ == "__main__":
     kw = {}
     if len(bt) <= 6: kw = dict(script_frac=0.6, script_h=2.6, script_drop=0.5, script_wt=0.045)
     else: kw = dict(script_frac=0.38, script_h=4.6, script_drop=0.55, script_wt=0.06)
+    if len(sys.argv) > 5 and sys.argv[5] == "full":
+        kw = dict(script_full=True, script_wt=0.06)
+        _fs = full_script
+        globals()["full_script"] = lambda txt, tw, th, thick: _fs(txt, tw, int(3.4 * DPI), thick, kmax=2.3)
     im = build(bt, st, mode == "arch", **kw); im.save(out, dpi=(DPI, DPI)); print(out, im.size)
