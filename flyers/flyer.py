@@ -21,9 +21,9 @@ def flyer(team, logo, url, bg, accent, text, mock1, mock2, out, logo_w=1100, sho
         m=Image.open(p).convert('RGB'); w,h=m.size; s_=min(w,h); return m.crop(((w-s_)//2,(h-s_)//2,(w-s_)//2+s_,(h-s_)//2+s_)).resize((820,820),Image.LANCZOS)
     im.paste(sq(mock1),(W//2-850,y)); im.paste(sq(mock2),(W//2+30,y)); y+=870
     # bullet lines
-    lines=["Player's last name + number on the back — FREE","One flat price, every size S–5XL","Hoodie $40  ·  Crewneck $35  ·  Tee $25","Printed in-house. Pick-up or ship."]
-    for l in lines:
-        d.text((W//2,y),l,font=F(POP,58),fill=text,anchor="mm"); y+=85
+    lines=[("Player's last name + number on the back — FREE",58,85),("Hoodie $40  ·  Crewneck $35  ·  Tee $25",58,70),("(Sizes 2XL and up are a few dollars more)",44,85),("Printed in-house. Pick-up or ship.",58,85)]
+    for l,sz,step in lines:
+        d.text((W//2,y),l,font=F(POP,sz),fill=text,anchor="mm"); y+=step
     y+=40
     # QR
     q=qrcode.QRCode(error_correction=qrcode.constants.ERROR_CORRECT_H,border=2); q.add_data(url); q.make(fit=True)
