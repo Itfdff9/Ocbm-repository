@@ -77,7 +77,7 @@ def build(block_text, script_text, arch=True, script_frac=0.5, script_h=2.4, scr
     block_text = block_text.upper()
     canvas = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     margin = int(1.0 * DPI)
-    rise = int(0.8 * DPI) if arch else 0
+    rise = int(0.8 * DPI * H / 1800) if arch else 0      # arch scales with print height (0.8 in at 6 in)
     pad = int(0.22 * DPI)
     wht, red = int(0.12 * DPI), int(0.10 * DPI)
     lh_max = H - 2 * pad - rise
