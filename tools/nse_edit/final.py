@@ -27,5 +27,5 @@ for N,tag,minA in [(8192,'8K_master_14in',70),(4200,'14x14in_300dpi',18)]:
     if 0:
       s=design.resize((N,N),Image.LANCZOS)
       save(harden(s,minA), out+f'NSE_Standard_{tag}.png')
-    k=compose(design,N,scale=0.85,name_h=0.19,name_cy=0.84,name_cx=0.49,angle=0,sparkle_pts=sp)
+    k=compose(design,N,scale=0.91,name_h=0.145,name_cy=0.885,name_cx=0.49,angle=0,sparkle_pts=sp)
     save(harden(k,minA), out+f'NSE_Khloe_{tag}.png')
