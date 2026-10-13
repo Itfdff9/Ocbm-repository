@@ -58,7 +58,7 @@ def build_name(text, width_in, dpi):
 def build_number(num, height_in, dpi):
     total_h=height_in*dpi; fill_h=total_h/(1+2*NUM_OUT)
     out=NUM_OUT*fill_h; blk=int(round(out*BLACK_SHARE)); roy=int(round(out-blk)); bold=int(round(NUM_BOLD*fill_h))
-    fill,_=word_fill(num, fill_h-2*bold, NUM_ASPECT*fill_h/(fill_h-2*bold) if len(num)==1 else None, int(0.08*fill_h), bold)
+    fill,_=word_fill(num, fill_h-2*bold, NUM_ASPECT*fill_h/(fill_h-2*bold) if len(num)==1 else None, int(0.12*fill_h), bold)   # 0.12 so two-digit outlines stay apart
     return stack(fill,blk,roy)
 
 def save(rgba, path, dpi):
