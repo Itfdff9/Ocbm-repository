@@ -1,0 +1,518 @@
+{
+"BUFC": {
+"Antique-Cherry-Red": {
+"cx": 579.0,
+"cy": 485.5,
+"width": 235
+},
+"Antique-Sapphire": {
+"cx": 549.0,
+"cy": 386.5,
+"width": 235
+},
+"Azalea": {
+"cx": 570.5,
+"cy": 371.5,
+"width": 235
+},
+"Cardinal-Red": {
+"cx": 562.0,
+"cy": 494.5,
+"width": 235
+},
+"Carolina-Blue": {
+"cx": 574.5,
+"cy": 377.0,
+"width": 235
+},
+"Charcoal": {
+"cx": 565.0,
+"cy": 348.0,
+"width": 235
+},
+"Cherry-Red": {
+"cx": 569.0,
+"cy": 487.0,
+"width": 235
+},
+"Dark-Chocolate": {
+"cx": 567.0,
+"cy": 387.5,
+"width": 235
+},
+"Dark-Heather": {
+"cx": 555.5,
+"cy": 468.0,
+"width": 235
+},
+"Forest-Green": {
+"cx": 586.0,
+"cy": 374.5,
+"width": 235
+},
+"Garnet": {
+"cx": 563.5,
+"cy": 355.0,
+"width": 235
+},
+"Gold": {
+"cx": 575.0,
+"cy": 464.0,
+"width": 235
+},
+"Graphite-Heather": {
+"cx": 580.5,
+"cy": 525.0,
+"width": 235
+},
+"Heather-Navy": {
+"cx": 571.0,
+"cy": 365.0,
+"width": 235
+},
+"Heather-Sport-Dark-Navy": {
+"cx": 552.5,
+"cy": 380.0,
+"width": 235
+},
+"Heather-Sport-Royal": {
+"cx": 561.5,
+"cy": 469.5,
+"width": 235
+},
+"Heliconia": {
+"cx": 563.5,
+"cy": 383.5,
+"width": 235
+},
+"Indigo-Blue": {
+"cx": 559.5,
+"cy": 351.5,
+"width": 235
+},
+"Irish-Green": {
+"cx": 572,
+"cy": 487.5,
+"width": 235
+},
+"Light-Blue": {
+"cx": 569.0,
+"cy": 478.0,
+"width": 235
+},
+"Light-Pink": {
+"cx": 589.0,
+"cy": 504.0,
+"width": 235
+},
+"Maroon": {
+"cx": 559.0,
+"cy": 367.0,
+"width": 235
+},
+"Military-Green": {
+"cx": 565.5,
+"cy": 351.0,
+"width": 235
+},
+"Navy": {
+"cx": 576.5,
+"cy": 357.5,
+"width": 235
+},
+"Orange": {
+"cx": 569.5,
+"cy": 381.5,
+"width": 235
+},
+"Orchid": {
+"cx": 575.5,
+"cy": 371.0,
+"width": 235
+},
+"Purple": {
+"cx": 573.5,
+"cy": 382.5,
+"width": 235
+},
+"Red": {
+"cx": 567.0,
+"cy": 477.0,
+"width": 235
+},
+"Royal": {
+"cx": 575.5,
+"cy": 353.0,
+"width": 235
+},
+"Safety-Orange": {
+"cx": 585,
+"cy": 507.5,
+"width": 235
+},
+"Safety-Pink": {
+"cx": 576.5,
+"cy": 486.5,
+"width": 235
+},
+"Sand": {
+"cx": 557.5,
+"cy": 476.0,
+"width": 235
+},
+"Sport-Grey": {
+"cx": 578.0,
+"cy": 473.0,
+"width": 235
+},
+"White": {
+"cx": 573.0,
+"cy": 470.5,
+"width": 235
+}
+},
+"BLUEBIRDS": {
+"Antique-Cherry-Red": {
+"cx": 579.0,
+"cy": 485.5,
+"width": 295
+},
+"Antique-Sapphire": {
+"cx": 549.0,
+"cy": 386.5,
+"width": 295
+},
+"Azalea": {
+"cx": 570.5,
+"cy": 371.5,
+"width": 294.8
+},
+"Cardinal-Red": {
+"cx": 562.0,
+"cy": 494.5,
+"width": 295
+},
+"Carolina-Blue": {
+"cx": 574.5,
+"cy": 377.0,
+"width": 295
+},
+"Charcoal": {
+"cx": 565.0,
+"cy": 348.0,
+"width": 295
+},
+"Cherry-Red": {
+"cx": 569.0,
+"cy": 487.0,
+"width": 295
+},
+"Dark-Chocolate": {
+"cx": 567.0,
+"cy": 387.5,
+"width": 295
+},
+"Dark-Heather": {
+"cx": 555.5,
+"cy": 468.0,
+"width": 295
+},
+"Forest-Green": {
+"cx": 586.0,
+"cy": 374.5,
+"width": 295
+},
+"Garnet": {
+"cx": 563.5,
+"cy": 355.0,
+"width": 295
+},
+"Gold": {
+"cx": 575.0,
+"cy": 464.0,
+"width": 295
+},
+"Graphite-Heather": {
+"cx": 580.5,
+"cy": 525.0,
+"width": 295
+},
+"Heather-Navy": {
+"cx": 571.0,
+"cy": 365.0,
+"width": 295
+},
+"Heather-Sport-Dark-Navy": {
+"cx": 552.5,
+"cy": 380.0,
+"width": 295
+},
+"Heather-Sport-Royal": {
+"cx": 561.5,
+"cy": 469.5,
+"width": 295
+},
+"Heliconia": {
+"cx": 563.5,
+"cy": 383.5,
+"width": 295
+},
+"Indigo-Blue": {
+"cx": 559.5,
+"cy": 351.5,
+"width": 295
+},
+"Irish-Green": {
+"cx": 572,
+"cy": 487.5,
+"width": 295
+},
+"Light-Blue": {
+"cx": 569.0,
+"cy": 478.0,
+"width": 295
+},
+"Light-Pink": {
+"cx": 589.0,
+"cy": 504.0,
+"width": 295
+},
+"Maroon": {
+"cx": 559.0,
+"cy": 367.0,
+"width": 295
+},
+"Military-Green": {
+"cx": 565.5,
+"cy": 351.0,
+"width": 295
+},
+"Navy": {
+"cx": 576.5,
+"cy": 357.5,
+"width": 295
+},
+"Orange": {
+"cx": 569.5,
+"cy": 381.5,
+"width": 295
+},
+"Orchid": {
+"cx": 575.5,
+"cy": 371.0,
+"width": 295
+},
+"Purple": {
+"cx": 573.5,
+"cy": 382.5,
+"width": 295
+},
+"Red": {
+"cx": 567.0,
+"cy": 477.0,
+"width": 295
+},
+"Royal": {
+"cx": 575.5,
+"cy": 353.0,
+"width": 295
+},
+"Safety-Orange": {
+"cx": 585,
+"cy": 507.5,
+"width": 295
+},
+"Safety-Pink": {
+"cx": 576.5,
+"cy": 486.5,
+"width": 295
+},
+"Sand": {
+"cx": 557.5,
+"cy": 476.0,
+"width": 295
+},
+"Sport-Grey": {
+"cx": 578.0,
+"cy": 473.0,
+"width": 295
+},
+"White": {
+"cx": 573.0,
+"cy": 470.5,
+"width": 295
+}
+},
+"NSE": {
+"Antique-Cherry-Red": {
+"cx": 579.0,
+"cy": 485.5,
+"width": 245
+},
+"Antique-Sapphire": {
+"cx": 549.0,
+"cy": 386.5,
+"width": 245
+},
+"Azalea": {
+"cx": 570.5,
+"cy": 371.5,
+"width": 227.5
+},
+"Cardinal-Red": {
+"cx": 562.0,
+"cy": 494.5,
+"width": 245
+},
+"Carolina-Blue": {
+"cx": 574.5,
+"cy": 377.0,
+"width": 245
+},
+"Charcoal": {
+"cx": 565.0,
+"cy": 348.0,
+"width": 245
+},
+"Cherry-Red": {
+"cx": 569.0,
+"cy": 487.0,
+"width": 245
+},
+"Dark-Chocolate": {
+"cx": 567.0,
+"cy": 387.5,
+"width": 245
+},
+"Dark-Heather": {
+"cx": 555.5,
+"cy": 468.0,
+"width": 245
+},
+"Forest-Green": {
+"cx": 586.0,
+"cy": 374.5,
+"width": 245
+},
+"Garnet": {
+"cx": 563.5,
+"cy": 355.0,
+"width": 245
+},
+"Gold": {
+"cx": 575.0,
+"cy": 464.0,
+"width": 245
+},
+"Graphite-Heather": {
+"cx": 580.5,
+"cy": 525.0,
+"width": 245
+},
+"Heather-Navy": {
+"cx": 571.0,
+"cy": 365.0,
+"width": 245
+},
+"Heather-Sport-Dark-Navy": {
+"cx": 552.5,
+"cy": 380.0,
+"width": 245
+},
+"Heather-Sport-Royal": {
+"cx": 561.5,
+"cy": 469.5,
+"width": 245
+},
+"Heliconia": {
+"cx": 563.5,
+"cy": 383.5,
+"width": 245
+},
+"Indigo-Blue": {
+"cx": 559.5,
+"cy": 351.5,
+"width": 245
+},
+"Irish-Green": {
+"cx": 572,
+"cy": 487.5,
+"width": 245
+},
+"Light-Blue": {
+"cx": 569.0,
+"cy": 478.0,
+"width": 230.5
+},
+"Light-Pink": {
+"cx": 589.0,
+"cy": 504.0,
+"width": 245
+},
+"Maroon": {
+"cx": 559.0,
+"cy": 367.0,
+"width": 245
+},
+"Military-Green": {
+"cx": 565.5,
+"cy": 351.0,
+"width": 245
+},
+"Navy": {
+"cx": 576.5,
+"cy": 357.5,
+"width": 245
+},
+"Orange": {
+"cx": 569.5,
+"cy": 381.5,
+"width": 245
+},
+"Orchid": {
+"cx": 575.5,
+"cy": 371.0,
+"width": 245
+},
+"Purple": {
+"cx": 573.5,
+"cy": 382.5,
+"width": 245
+},
+"Red": {
+"cx": 567.0,
+"cy": 477.0,
+"width": 245
+},
+"Royal": {
+"cx": 575.5,
+"cy": 353.0,
+"width": 245
+},
+"Safety-Orange": {
+"cx": 585,
+"cy": 507.5,
+"width": 245
+},
+"Safety-Pink": {
+"cx": 576.5,
+"cy": 486.5,
+"width": 245
+},
+"Sand": {
+"cx": 557.5,
+"cy": 476.0,
+"width": 245
+},
+"Sport-Grey": {
+"cx": 578.0,
+"cy": 473.0,
+"width": 245
+},
+"White": {
+"cx": 573.0,
+"cy": 470.5,
+"width": 245
+}
+}
+}
