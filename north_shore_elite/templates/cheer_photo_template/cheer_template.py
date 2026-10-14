@@ -204,10 +204,11 @@ def build(name, photo, ghost1=None, ghost2=None, bottom="North Shore Elite", yea
     paste(img, np.zeros((H, W), np.float32), crgb, ca, cxp, cyp)
     layers = {"CHEER": (crgb, ca, cxp, cyp)}
     # --- name (top-left) ---
-    nrgb, na = script_layer(name, int(0.16 * H), max(2, int(4.5 * scale * 3)), swash=(0.30, 1.0, 0.86))
-    k = min(0.55 * W / na.shape[1], 0.215 * H / na.shape[0]); nrgb = cv2.resize(nrgb, (int(na.shape[1] * k), int(na.shape[0] * k))); na = cv2.resize(na, (nrgb.shape[1], nrgb.shape[0]))
-    nim = Image.fromarray(np.dstack([np.clip(nrgb, 0, 255), na * 255]).astype(np.uint8), "RGBA").rotate(9, resample=Image.BICUBIC, expand=True)
-    nn = np.array(nim).astype(np.float32); nx, ny = int(0.0 * W), int(-0.01 * H)
+    nrgb, na = script_layer(name, int(0.16 * H), max(2, int(4.5 * scale * 3)), swash=(0.22, 0.92, 0.80))
+    ys_, xs_ = np.where(na > 0.5); nrgb = nrgb[ys_.min():ys_.max() + 1, xs_.min():xs_.max() + 1]; na = na[ys_.min():ys_.max() + 1, xs_.min():xs_.max() + 1]
+    k = min(0.74 * W / na.shape[1], 0.215 * H / na.shape[0]); nrgb = cv2.resize(nrgb, (int(na.shape[1] * k), int(na.shape[0] * k))); na = cv2.resize(na, (nrgb.shape[1], nrgb.shape[0]))
+    nim = Image.fromarray(np.dstack([np.clip(nrgb, 0, 255), na * 255]).astype(np.uint8), "RGBA").rotate(7, resample=Image.BICUBIC, expand=True)
+    nn = np.array(nim).astype(np.float32); nx, ny = int(0.015 * W), int(0.006 * H)
     paste(img, np.zeros((H, W), np.float32), nn[..., :3], nn[..., 3] / 255, nx, ny)
     layers["NAME"] = (nn[..., :3], nn[..., 3] / 255, nx, ny)
     # --- bottom line: "North Shore Elite 2026" + heart ---
