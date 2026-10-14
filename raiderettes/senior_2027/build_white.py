@@ -18,6 +18,14 @@ def keyed(mask, key_px):
     rgba[rgba[...,3]==0,:3]=RED
     return rgba
 
+def hollow(mask, stroke):
+    """hollow outline: black ring around the glyph, inside left transparent"""
+    pad=stroke+4; m=np.pad(mask,pad)
+    outer=grow(m,stroke//2); inner=cv2.erode(m,cv2.getStructuringElement(cv2.MORPH_ELLIPSE,(2*(stroke-stroke//2)+1,)*2))
+    ring=(outer>127)&~(inner>127)
+    rgba=np.zeros(m.shape+(4,),np.uint8); rgba[ring]=(*BLACK,255); rgba[~ring,:3]=BLACK
+    return rgba
+
 def varsity(ch,H,fit_w):
     """red core + white line + black rim (same geometry as the black-shirt build)"""
     rim=max(1,round(0.03*H)); wl=max(1,round(B.WL*H)); bold=max(1,round(B.BOLD*H))
@@ -43,7 +51,7 @@ def coach_row():
     for c in word: out.append((c,x,y,est[c],141)); x+=est[c]+gap
     return out
 
-def render(canvas_px, dpi, word="SENIOR", year="2027"):
+def render(canvas_px, dpi, word="SENIOR", year="2027", hollow_year=False):
     margin=int(0.25*dpi); x0,y0,x1,y1=SRC_BOX
     if word!="SENIOR": y1=SEN[0][2]+141+12          # no year line: design ends under COACH
     S=(canvas_px-2*margin)/(y1-y0)
@@ -83,11 +91,11 @@ def render(canvas_px, dpi, word="SENIOR", year="2027"):
     if word=="SENIOR" and year:
         capd=glyph_mask("2",OSW,1000).shape[0]/1000
         for ch,(x,y,w,h) in zip(year,YEAR_BOX):
-            paste(cv,keyed(glyph_mask(ch,OSW,int(107*S/capd)),key),*T(x+w/2,y+h/2))
+            g=glyph_mask(ch,OSW,int(107*S/capd)); paste(cv,hollow(g,max(3,int(round(0.06*canvas_px/16)))) if hollow_year else keyed(g,key),*T(x+w/2,y+h/2))
     cv[...,3]=np.where(cv[...,3]>=128,255,0).astype(np.uint8); cv[cv[...,3]==0,:3]=0
     return Image.fromarray(cv,"RGBA")
 
 if __name__=="__main__":
     out,px,dpi=sys.argv[1],int(sys.argv[2]),int(sys.argv[3])
-    word=sys.argv[4] if len(sys.argv)>4 else "SENIOR"; yr=sys.argv[5] if len(sys.argv)>5 else "2027"
-    im=render(px,dpi,word,yr); im.save(out,dpi=(dpi,dpi)); print(out,im.size)
+    word=sys.argv[4] if len(sys.argv)>4 else "SENIOR"; yr=sys.argv[5] if len(sys.argv)>5 and not sys.argv[5].startswith("--") else "2027"
+    im=render(px,dpi,word,yr,hollow_year='--hollow' in sys.argv); im.save(out,dpi=(dpi,dpi)); print(out,im.size)
