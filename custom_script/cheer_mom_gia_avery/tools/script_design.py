@@ -59,6 +59,9 @@ def stack(items):
 if kind == "giaavery":
     g = word_mask("Gia", fs, pen_px); a = word_mask("Avery", fs, pen_px)
     stack([(g, 0.35, 0, 5), (heart_mask(fs * 0.30, hp), 0.22, 0.02, 5), (a, -0.05, -0.02, 5), (heart_mask(fs * 0.30, hp), -0.18, -0.16, 5)])
+elif kind.startswith("name:"):
+    nm = word_mask(kind[5:], fs, pen_px)
+    stack([(nm, 0.0, 0, 5), (heart_mask(fs * 0.34, hp), -0.05, -0.14, 5)])
 else:
     c1 = word_mask("cheer", fs, pen_px); m1 = word_mask("mom", fs, pen_px)
     stack([(c1, -0.10, 0, 4), (m1, 0.22, -0.03, 4), (heart_mask(fs * 0.34, hp), 0.20, 0.06, 4)])
