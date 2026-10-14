@@ -12,7 +12,7 @@ sat=lambda v,lo,hi: np.clip((v-lo)/(hi-lo),0,1)
 pW=sat(mn,140,190)
 pB=sat(b-r,45,95)*sat(b,100,160)*(1-pW)
 pL=sat(b-r,20,50)*sat(mn,80,115)*(1-pW)*(1-pB)
-# script region: white strokes in the lower-middle that are the "Elites" script (not letter outlines)
+# script region: white strokes in the lower-middle that are the "Elite" script (not letter outlines)
 H0,W0=f.shape
 F=float(sys.argv[1]) if len(sys.argv)>1 else 5.24
 Wt,Ht=int(W0*F),int(H0*F)

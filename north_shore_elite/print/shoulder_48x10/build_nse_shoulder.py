@@ -1,7 +1,7 @@
 """North Shore Elites sleeve-to-sleeve shoulder print (from Brian's black-crewneck photo, 2026-10-14).
 48 x 10 in at 300 DPI (14400 x 3000), transparent, hard alpha. Resize down for S/M/L/XL per the Gildan 18000 chart.
 NORTH SHORE: distressed royal-blue varsity letters (Graduate, condensed) with a thin white outline, arched.
-Elites: white brush script, black outline, thin royal edge, with a royal swoosh underline.
+Elite: white brush script, black outline, thin royal edge, with a royal swoosh underline.
 usage: python3 build_nse_shoulder.py OUT.png [scale]"""
 import sys, math, numpy as np, cv2
 from PIL import Image, ImageDraw, ImageFont
@@ -104,9 +104,9 @@ def compose(W0, H):
     A = cv2.resize(A[:, c0:c1].astype(np.float32), (tw, H), interpolation=cv2.INTER_AREA) >= 0.5
     canvas = np.pad(canvas, ((0, 0), (m0, W0 - tw - m0), (0, 0))); A = np.pad(A, ((0, 0), (m0, W0 - tw - m0)))
     W = W0
-    # --- script "Elites" ---
+    # --- script "Elite" ---
     sh = int(H * 0.80)
-    sf = ImageFont.truetype(SCRIPT, 1000); sm = text_mask("Elites", sf, 60)
+    sf = ImageFont.truetype(SCRIPT, 1000); sm = text_mask("Elite", sf, 60)
     s = sh / sm.shape[0]
     sm = cv2.resize(sm.astype(np.uint8) * 255, (int(sm.shape[1] * s * 1.32), sh), interpolation=cv2.INTER_AREA) > 127
     SU = sh / 100
