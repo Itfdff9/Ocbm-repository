@@ -27,14 +27,25 @@ k=min((by1-by0)*1.0/t.height, 505*K*0.98/t.width)
 t=t.resize((int(t.width*k),int(t.height*k)),Image.LANCZOS)
 tx=int((bx0+bx1)/2-t.width/2); ty=int(by1-t.height)
 ta=np.zeros((H,W),bool); ta[ty:ty+t.height,tx:tx+t.width]=np.array(t)[...,3]>=128
+NONAME=NAME=='-'
+if NONAME: ta[:]=False
 # remove Khloe; fill uncovered stripe area above the drip line by extending stripes downward
 resid=blob&~ta
+if NONAME:
+    import os as _o
+    _fp='/home/claude/sc/name_footprint_%s.npy'%_o.environ.get('OLDNAME','laura').lower()
+    resid=resid|nd.binary_dilation(np.load(_fp),iterations=10)
+    resid[:by0,:]=False
 np.save('/home/claude/sc/resid4.npy',np.packbits(resid)); np.save('/home/claude/sc/ta4.npy',np.packbits(ta))
 img=x4.copy(); al=alpha&~blob
 # fill uncovered Khloe area with the stripes + drips from under the banner of the master art (same palette/texture)
 M=np.array(Image.open('/home/claude/ocbm-repository/north_shore_elite/reference/NSE_Sagamore_master_art_5016px_source.png').convert('RGBA'))
 yy,xx=np.where(resid)
 sy=yy+115*K; sx=380*K+((xx-450*K)%(240*K))
+if NONAME:   # no name: stretch the drips down so the middle reaches the same depth as the sides
+    END=int(__import__('os').environ.get('DRIPEND','4820'))
+    k_=(4740-(by0+115*K))/(END-by0)
+    sy=(by0+115*K+(yy-by0)*k_).astype(int)
 sy=np.clip(sy,0,M.shape[0]-1)
 img[yy,xx]=M[sy,sx,:3]; al[yy,xx]=M[sy,sx,3]>=128
 fill=resid
@@ -44,12 +55,15 @@ out.alpha_composite(t,(tx,ty))
 # put the name on the CURRENT master (megaphone/banner edits kept): swap only the old name area
 import os
 cur=np.array(Image.open(sys.argv[2]).convert('RGBA'))
-oldname=np.load('/home/claude/sc/name_footprint_laura.npy') if os.path.exists('/home/claude/sc/name_footprint_laura.npy') else None
+OLD=os.environ.get('OLDNAME','laura').lower(); fp='/home/claude/sc/name_footprint_%s.npy'%OLD
+oldname=np.load(fp) if os.path.exists(fp) else None
 bgA=np.array(bgname)
 zone=nd.binary_dilation(oldname,iterations=6) if oldname is not None else np.zeros((H,W),bool)
+if NONAME: zone=zone|resid
 cur[zone]=bgA[zone]
-res=Image.fromarray(cur,'RGBA'); res.alpha_composite(t,(tx,ty))
+res=Image.fromarray(cur,'RGBA')
+if not NONAME: res.alpha_composite(t,(tx,ty))
 r=np.array(res); s_=r[...,3]>=128; r[...,3]=np.where(s_,255,0); r[~s_,:3]=0
 Image.fromarray(r,'RGBA').save(sys.argv[3],dpi=(300,300))
-np.save('/home/claude/sc/name_footprint_%s.npy'%NAME.lower(),ta)
+if not NONAME: np.save('/home/claude/sc/name_footprint_%s.npy'%NAME.lower(),ta)
 print('blob bbox',bx0,bx1,by0,by1,'name',t.size, 'resid px',resid.sum(), 'filled',fill.sum())
