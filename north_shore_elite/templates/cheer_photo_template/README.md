@@ -1,5 +1,5 @@
 # NSE "CHEER" photo template (made 2026-10-14)
-Original artwork in the style Brian asked for (smoky blue background, lightning, stadium lights, vertical CHEER, script name).
+Original artwork in the style Brian asked for (smoky blue background, lightning, stadium lights, vertical CHEER, script name). Script font: Hurricane (closest match to the original brush lettering); name sits in the top-left corner, clear of the face and stadium lights.
 12 x 14.67 in at 300 DPI (3600 x 4400), transparent outside a distressed edge, hard alpha.
 
 Make one:  python3 cheer_template.py --name "Emily" --photo main.jpg [--ghost1 face.jpg] [--ghost2 action.jpg] [--bottom "North Shore Elite"] [--year 2026] --out OUT.png [--layers DIR]

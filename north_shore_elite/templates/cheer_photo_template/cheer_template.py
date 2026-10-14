@@ -10,7 +10,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 from scipy import ndimage as nd
 Image.MAX_IMAGE_PIXELS = None
 HERE = os.path.dirname(os.path.abspath(__file__))
-F_SCRIPT = os.path.join(HERE, "fonts/MrsSaintDelafield-Regular.ttf")
+F_SCRIPT = os.path.join(HERE, "fonts/Hurricane-Regular.ttf")
 F_BLOCK = os.path.join(HERE, "fonts/Anton-Regular.ttf")
 BLUE = np.array([30, 90, 235], np.float32)
 DEEP = np.array([6, 20, 70], np.float32)
@@ -204,14 +204,14 @@ def build(name, photo, ghost1=None, ghost2=None, bottom="North Shore Elite", yea
     paste(img, np.zeros((H, W), np.float32), crgb, ca, cxp, cyp)
     layers = {"CHEER": (crgb, ca, cxp, cyp)}
     # --- name (top-left) ---
-    nrgb, na = script_layer(name, int(0.16 * H), max(2, int(7.0 * scale * 3)), swash=(0.34, 1.0, 0.84))
-    k = min(0.62 * W / na.shape[1], 0.30 * H / na.shape[0]); nrgb = cv2.resize(nrgb, (int(na.shape[1] * k), int(na.shape[0] * k))); na = cv2.resize(na, (nrgb.shape[1], nrgb.shape[0]))
+    nrgb, na = script_layer(name, int(0.16 * H), max(2, int(4.5 * scale * 3)), swash=(0.30, 1.0, 0.86))
+    k = min(0.55 * W / na.shape[1], 0.215 * H / na.shape[0]); nrgb = cv2.resize(nrgb, (int(na.shape[1] * k), int(na.shape[0] * k))); na = cv2.resize(na, (nrgb.shape[1], nrgb.shape[0]))
     nim = Image.fromarray(np.dstack([np.clip(nrgb, 0, 255), na * 255]).astype(np.uint8), "RGBA").rotate(9, resample=Image.BICUBIC, expand=True)
-    nn = np.array(nim).astype(np.float32); nx, ny = int(-0.01 * W), int(-0.005 * H)
+    nn = np.array(nim).astype(np.float32); nx, ny = int(0.0 * W), int(-0.01 * H)
     paste(img, np.zeros((H, W), np.float32), nn[..., :3], nn[..., 3] / 255, nx, ny)
     layers["NAME"] = (nn[..., :3], nn[..., 3] / 255, nx, ny)
     # --- bottom line: "North Shore Elite 2026" + heart ---
-    brgb, ba = script_layer(f"{bottom}  {year}", int(0.10 * H), max(1, int(3.0 * scale * 3)), slant=0.12)
+    brgb, ba = script_layer(f"{bottom}  {year}", int(0.10 * H), max(1, int(2.6 * scale * 3)), slant=0.05)
     k = min(0.84 * W / ba.shape[1], 0.15 * H / ba.shape[0]); brgb = cv2.resize(brgb, (int(ba.shape[1] * k), int(ba.shape[0] * k))); ba = cv2.resize(ba, (brgb.shape[1], brgb.shape[0]))
     bim = Image.fromarray(np.dstack([np.clip(brgb, 0, 255), ba * 255]).astype(np.uint8), "RGBA").rotate(4, resample=Image.BICUBIC, expand=True)
     bb = np.array(bim).astype(np.float32); bxp, byp = int(0.02 * W), int(0.99 * H) - bb.shape[0]
