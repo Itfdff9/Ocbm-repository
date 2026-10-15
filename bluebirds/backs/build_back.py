@@ -45,7 +45,7 @@ def stack(fill, blk, roy):
     ys,xs=np.where(rgba[...,3]>0); rgba=rgba[ys.min():ys.max()+1, xs.min():xs.max()+1]
     return rgba
 
-def build_name(text, width_in, dpi):
+def build_name(text, width_in, dpi, _fixed=False):
     """name sized so the whole name (incl. outlines) is width_in wide; natural letter shapes, spaced like the reference"""
     probe,_=word_fill(text, 1000, None, int(LETTER_GAP*1000), 0)
     aspect=(probe.shape[1]-4)/1000.0
@@ -53,7 +53,13 @@ def build_name(text, width_in, dpi):
     fill_h=total_w/(aspect+2*NAME_OUT); out=NAME_OUT*fill_h
     blk=int(round(out*BLACK_SHARE)); roy=int(round(out-blk)); bold=int(round(NAME_BOLD*fill_h))
     fill,k=word_fill(text, fill_h-2*bold, None, int(round(LETTER_GAP*fill_h)), bold)
-    return stack(fill,blk,roy), k
+    rgba=stack(fill,blk,roy)
+    # the weight-up eats into the width estimate (names came out ~1.5-2% narrow); correct once so the
+    # finished name lands on width_in
+    want=width_in*dpi
+    if not _fixed and abs(rgba.shape[1]-want)/want > 0.002:
+        return build_name(text, width_in*want/rgba.shape[1], dpi, True)
+    return rgba, k
 
 def build_number(num, height_in, dpi):
     total_h=height_in*dpi; fill_h=total_h/(1+2*NUM_OUT)
