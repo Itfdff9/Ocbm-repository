@@ -23,6 +23,7 @@ PAL = {  # measured from the upload
 CLEAR, BLK, WHT, FIL, EDG = range(5)
 OUT = np.array([[0, 0, 0, 0], [*PAL['black'], 255], [*PAL['white'], 255], [*PAL['fill'], 255], [*PAL['edge'], 255]], np.uint8)
 OUTLINE = 10.0          # outer black outline width, src px (measured median 10.0, p10 9.1)
+KEYLINE = 19.0          # white keyline width, src px (measured 18-19 on every undamaged letter edge)
 
 def classes(src):
     im = Image.open(src).convert('RGBA').transpose(Image.Transpose.ROTATE_270)
@@ -60,7 +61,34 @@ def classes(src):
     d = nd.distance_transform_edt(~letter_white)
     add = (cls == CLEAR) & (d <= OUTLINE + 0.5)
     cls[add] = BLK
-    return cls, add, im.size
+    cls, fixk = repair_keyline(cls)
+    print("outline px added", int(add.sum()), "| keyline+outline px rebuilt", int(fixk.sum()))
+    return cls, fixk, cls.shape[::-1]
+
+def repair_keyline(cls, P=60):
+    """where the original crop shaved the white keyline (top of NORTH's H, left of the N...), rebuild it to
+    its full 19 px measured from the letter body, then the 10 px black outline outside it. Only adds; never
+    touches a letter body, Elite, or keyline that is already full width."""
+    cls = np.pad(cls, P)                                         # room for the letters to grow outward
+    blk = cls == BLK; clear = cls == CLEAR
+    lab, n = nd.label(blk)
+    touch = nd.maximum(nd.binary_dilation(clear, iterations=2).astype(np.int32), lab, range(1, n + 1))
+    body = np.isin(lab, 1 + np.where(touch == 0)[0])            # black enclosed by white = letter bodies
+    elite = nd.distance_transform_edt(~((cls == FIL) | (cls == EDG))) <= KEYLINE + OUTLINE + 6
+    d = nd.distance_transform_edt(~body)
+    want_white = (d > 0.5) & (d <= KEYLINE) & ~elite
+    miss = want_white & ((cls == CLEAR) | (blk & ~body))         # should be keyline, is outline or clear
+    lb, m = nd.label(miss)
+    if m:
+        thick = nd.maximum(nd.distance_transform_edt(miss), lb, range(1, m + 1))
+        miss = np.isin(lb, 1 + np.where(thick >= 1.5)[0])        # real gaps only, not 1-px edge slivers
+    near = nd.distance_transform_edt(~miss) <= OUTLINE + 2
+    want_black = near & (d > KEYLINE) & (d <= KEYLINE + OUTLINE) & (cls == CLEAR) & ~elite
+    cls[miss] = WHT; cls[want_black] = BLK
+    fixed = miss | want_black
+    ys, xs = np.where(cls != CLEAR)
+    y0, y1, x0, x1 = ys.min(), ys.max() + 1, xs.min(), xs.max() + 1
+    return cls[y0:y1, x0:x1].copy(), fixed[y0:y1, x0:x1]
 
 def level_angle(cls):
     """angle (deg, + = counter-clockwise) that puts the outer ends of the arch level (feet and tops)"""
