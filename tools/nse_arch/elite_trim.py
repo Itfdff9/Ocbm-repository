@@ -15,7 +15,7 @@ a = np.asarray(im.convert('RGBA')).astype(np.float32)
 al = a[..., 3]; rgb = a[..., :3]; lum = rgb.mean(-1)
 dark = (al > 127) & (rgb.max(-1) < 70)
 lab, n = nd.label(dark); sz = np.bincount(lab.ravel()); sz[0] = 0
-core = lab == sz.argmax()                                    # the Elite script
+core = np.isin(lab, np.where(sz > 1000)[0])                 # the Elite script + the dot of its i
 ys, xs = np.where(core); P = int(W) + 20
 y0, y1, x0, x1 = max(0, ys.min() - P), ys.max() + P + 1, max(0, xs.min() - P), xs.max() + P + 1
 sub = core[y0:y1, x0:x1].astype(np.float32)
@@ -28,7 +28,7 @@ T = np.zeros(core.shape, bool); T[y0:y1, x0:x1] = trim
 # Elite coverage on its soft edge (dark, near the core) -> laid over the white
 near = nd.binary_dilation(core, iterations=4)
 e = np.clip((al / 255.0) * np.clip((150 - lum) / (150 - 7), 0, 1), 0, 1) * near
-e[core] = np.maximum(e[core], al[core] / 255.0)
+e[core] = 1.0                                                 # Elite itself: its own colour, made fully solid (parts of it were see-through)
 o = a.copy()
 zone = T | core
 white = np.array([255, 255, 255], np.float32)
