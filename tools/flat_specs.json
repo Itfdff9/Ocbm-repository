@@ -1,0 +1,114 @@
+{
+ "tee_5000": {
+  "Front": {
+   "ft": 0.165,
+   "fw": 0.5,
+   "w_ref": "body"
+  },
+  "Back": {
+   "ft": 0.175,
+   "fw": 0.52,
+   "w_ref": "body"
+  }
+ },
+ "bc_3001": {
+  "Front": {
+   "ft": 0.165,
+   "fw": 0.5,
+   "w_ref": "body"
+  },
+  "Back": {
+   "ft": 0.175,
+   "fw": 0.52,
+   "w_ref": "body"
+  }
+ },
+ "cc_1717": {
+  "Front": {
+   "ft": 0.165,
+   "fw": 0.5,
+   "w_ref": "body"
+  },
+  "Back": {
+   "ft": 0.175,
+   "fw": 0.52,
+   "w_ref": "body"
+  }
+ },
+ "crew_18000": {
+  "Front": {
+   "ft": 0.17,
+   "fw": 0.27
+  },
+  "Back": {
+   "ft": 0.15,
+   "fw": 0.3
+  }
+ },
+ "hoodie_18500": {
+  "Front": {
+   "ft": 0.25,
+   "fw": 0.29
+  },
+  "Back": {
+   "ft": 0.33,
+   "fw": 0.34
+  }
+ },
+ "youth_tee_5000b": {
+  "Front": {
+   "ft": 0.165,
+   "fw": 0.52,
+   "w_ref": "body"
+  },
+  "Back": {
+   "ft": 0.17,
+   "fw": 0.54,
+   "w_ref": "body"
+  }
+ },
+ "toddler_tee_3301t": {
+  "Front": {
+   "ft": 0.17,
+   "fw": 0.52,
+   "w_ref": "body"
+  },
+  "Back": {
+   "ft": 0.17,
+   "fw": 0.54,
+   "w_ref": "body"
+  }
+ },
+ "onesie_4400": {
+  "Front": {
+   "ft": 0.16,
+   "fw": 0.55,
+   "w_ref": "body"
+  },
+  "Back": {
+   "ft": 0.13,
+   "fw": 0.55,
+   "w_ref": "body"
+  }
+ },
+ "youth_hoodie_18500b": {
+  "Front": {
+   "ft": 0.25,
+   "fw": 0.29
+  },
+  "Back": {
+   "ft": 0.33,
+   "fw": 0.34
+  }
+ },
+ "youth_crew_18000b": {
+  "Front": {
+   "ft": 0.17,
+   "fw": 0.27
+  },
+  "Back": {
+   "ft": 0.15,
+   "fw": 0.3
+  }
+ }
+}

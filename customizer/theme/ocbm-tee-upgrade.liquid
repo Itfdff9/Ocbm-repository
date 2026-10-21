@@ -1,0 +1,58 @@
+{%- comment -%} Shirt style picker: links the Gildan 5000 / Bella+Canvas 3001 / Comfort Colors 1717 tees in the same team collection. {%- endcomment -%}
+{%- liquid
+  assign tt = product.tags | join: '|' | append: '|'
+  assign is_tee = false
+  if tt contains 'Gildan 5000|' or tt contains 'Bella+Canvas 3001|' or tt contains 'Comfort Colors 1717|'
+    assign is_tee = true
+  endif
+  assign home = nil
+  if is_tee
+    for c in product.collections
+      if c.handle == 'dreams-fastpitch' or c.handle == 'bethpage-united-fc' or c.handle == 'bethpage-bluebirds-fc' or c.handle == 'north-shore-elite' or c.handle == 'bethpage-blue-crush'
+        assign home = c
+        break
+      endif
+    endfor
+  endif
+  assign styles = 'Gildan 5000|Bella+Canvas 3001|Comfort Colors 1717' | split: '|'
+-%}
+{%- if home -%}
+  {%- capture opts -%}
+    {%- for key in styles -%}
+      {%- assign k2 = key | append: '|' -%}
+      {%- for p in home.products -%}
+        {%- assign pt = p.tags | join: '|' | append: '|' -%}
+        {%- if pt contains k2 -%}
+          {%- liquid
+            if key == 'Gildan 5000'
+              assign nm = 'Classic'
+              assign sub = 'Gildan 5000 · heavy cotton, everyday fit'
+            elsif key == 'Bella+Canvas 3001'
+              assign nm = 'Premium Soft'
+              assign sub = 'Bella+Canvas 3001 · lighter, softer, retail fit'
+            else
+              assign nm = 'Vintage Heavyweight'
+              assign sub = 'Comfort Colors 1717 · garment-dyed, relaxed fit'
+            endif
+            assign cur = false
+            if p.id == product.id
+              assign cur = true
+            endif
+          -%}
+          <a href="{{ p.url }}" {% if cur %}aria-current="true"{% endif %} style="display:flex;justify-content:space-between;align-items:center;gap:1rem;padding:1rem 1.2rem;margin:0 0 .6rem;border-radius:8px;text-decoration:none;color:inherit;border:{% if cur %}2px solid rgb(var(--color-foreground)){% else %}1px solid rgba(var(--color-foreground),.25){% endif %}">
+            <span><strong style="display:block;font-size:1.45rem">{{ nm }}{% if cur %} ✓{% endif %}</strong><span style="font-size:1.2rem;opacity:.75">{{ sub }}</span></span>
+            <span style="font-weight:600;white-space:nowrap">{{ p.price_min | money_without_trailing_zeros }}</span>
+          </a>
+          {%- break -%}
+        {%- endif -%}
+      {%- endfor -%}
+    {%- endfor -%}
+  {%- endcapture -%}
+  {%- if opts contains '<a' -%}
+  <div class="ocbm-tee-upgrade" style="margin:0 0 1.6rem">
+    <p style="margin:0 0 .6rem;font-weight:600">Shirt style</p>
+    {{ opts }}
+    <p style="margin:.2rem 0 0;font-size:1.15rem;opacity:.7">Same design on every style. Pick your color and size after choosing a style.</p>
+  </div>
+  {%- endif -%}
+{%- endif -%}

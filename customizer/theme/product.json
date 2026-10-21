@@ -1,0 +1,56 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": { "type": "title", "settings": {} },
+        "price": { "type": "price", "settings": {} },
+        "size_note": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- assign sz = product.options_by_name['Size'].values | join: ',' | append: ',' -%}{%- if sz contains '2XL,' -%}{%- assign base = product.price_min -%}<p class=\"ocbm-size-note\" style=\"margin:-.4rem 0 1.4rem;font-size:1.3rem;line-height:1.5;opacity:.8\">(Sizes 2XL and up are a few dollars more to cover the larger garment:{%- assign first = true -%}{%- for s in product.options_by_name['Size'].values -%}{%- if s == '2XL' or s == '3XL' or s == '4XL' or s == '5XL' -%}{%- assign v = product.variants | where: 'option2', s | first -%}{%- if v -%}{%- assign d = v.price | minus: base -%}{%- unless first %} ·{% endunless %} {{ s }} +{{ d | money_without_trailing_zeros }}{%- assign first = false -%}{%- endif -%}{%- endif -%}{%- endfor -%})</p>{%- endif -%}"
+          }
+        },
+        "tee_upgrade": {
+          "type": "custom_liquid",
+          "settings": { "custom_liquid": "{% render 'ocbm-tee-upgrade', product: product %}" }
+        },
+        "variant_picker": { "type": "variant_picker", "settings": { "picker_type": "dropdown", "swatch_shape": "circle" } },
+        "personalize": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{%- liquid\n  assign fid = 'product-form-' | append: section.id\n  assign t = product.tags | join: '|' | append: '|'\n  assign ch = product.collections | map: 'handle' | join: '|' | append: '|'\n  assign garment = 'tee'\n  if t contains '18000'\n    assign garment = 'crew'\n  elsif t contains '18500' or t contains '18600'\n    assign garment = 'hoodie'\n  elsif t contains 'PC78HC'\n    assign garment = 'camo'\n  endif\n  assign team = 'OPEN'\n  if t contains 'NSE|' or ch contains 'north-shore-elite|'\n    assign team = 'NSE'\n  elsif ch contains 'dreams-fastpitch|'\n    assign team = 'DREAMS'\n  elsif ch contains 'bethpage-united-fc|'\n    assign team = 'BUFC'\n  elsif ch contains 'bethpage-bluebirds-fc|'\n    assign team = 'BLUEBIRDS'\n  elsif ch contains 'bethpage-blue-crush|'\n    assign team = 'BLUECRUSH'\n  endif\n  assign is_drink = false\n  if t contains 'Drinkware|'\n    assign is_drink = true\n  endif\n-%}\n<div class=\"product-form__input ocbm-personalize\" style=\"margin-bottom:1.6rem\">\n{%- unless is_drink -%}\n<div id=\"ocbm-designer\" data-garment=\"{{ garment }}\" data-team=\"{{ team }}\" data-form=\"{{ fid }}\"></div>\n<script src=\"{{ 'ocbm-designer-teams.js' | asset_url }}\"></script>\n<script src=\"{{ 'ocbm-designer.js' | asset_url }}\" defer=\"defer\"></script>\n{%- else -%}\n  <p style=\"margin:0 0 .6rem;font-weight:600\">Name side (included free)</p>\n  <label class=\"form__label\" for=\"ocbm-name-{{ section.id }}\">Player last name</label>\n  <input class=\"field__input\" type=\"text\" id=\"ocbm-name-{{ section.id }}\" name=\"properties[Player Last Name]\" form=\"{{ fid }}\" maxlength=\"16\" placeholder=\"e.g. SAVVA\" autocapitalize=\"characters\" style=\"text-transform:uppercase;margin-bottom:1rem\">\n  <label class=\"form__label\" for=\"ocbm-number-{{ section.id }}\">Player number</label>\n  <input class=\"field__input\" type=\"text\" inputmode=\"numeric\" pattern=\"[0-9]{1,2}\" id=\"ocbm-number-{{ section.id }}\" name=\"properties[Player Number]\" form=\"{{ fid }}\" maxlength=\"2\" placeholder=\"e.g. 18\">\n  <p style=\"margin:.6rem 0 0;font-size:1.2rem;opacity:.75\">Printed exactly as entered. Leave both blank for logo only.</p>\n{%- endunless -%}\n  <p style=\"margin:.8rem 0 0;font-size:1.1rem;opacity:.7\">By adding this item to your cart you confirm you have the right to use any name, number, logo or artwork on it, and you accept our <a href=\"/policies/terms-of-service\">Terms of Service</a>, including the artwork and indemnification terms.</p>\n</div>"
+          }
+        },
+        "quantity_selector": { "type": "quantity_selector", "settings": {} },
+        "buy_buttons": { "type": "buy_buttons", "settings": { "show_dynamic_checkout": false, "show_gift_card_recipient": false } },
+        "description": { "type": "description", "settings": {} },
+        "share": { "type": "share", "settings": { "share_label": "Share" } }
+      },
+      "block_order": ["title", "price", "size_note", "tee_upgrade", "variant_picker", "personalize", "quantity_selector", "buy_buttons", "description", "share"],
+      "settings": {
+        "enable_sticky_info": true, "color_scheme": "", "media_size": "small", "constrain_to_viewport": false, "media_fit": "cover",
+        "gallery_layout": "thumbnail_slider", "media_position": "right", "image_zoom": "lightbox", "mobile_thumbnails": "hide",
+        "hide_variants": true, "enable_video_looping": false, "padding_top": 36, "padding_bottom": 36
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "heading": "More from this team", "heading_size": "h2", "products_to_show": 4, "columns_desktop": 4, "color_scheme": "scheme-1",
+        "image_ratio": "adapt", "image_shape": "default", "show_secondary_image": false, "show_vendor": false, "show_rating": false,
+        "columns_mobile": "2", "padding_top": 36, "padding_bottom": 44
+      }
+    }
+  },
+  "order": ["main", "related-products"]
+}
