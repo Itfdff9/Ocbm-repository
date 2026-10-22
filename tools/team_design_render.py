@@ -26,6 +26,7 @@ LIFE = {'seated': (_P('place_bc3001_a.json'), f'{R}/customizer/blanks/bc3001/sea
         'couch': (_P('place_bc3001_b.json'), f'{R}/customizer/blanks/bc3001/couch', 443),
         'flatlay': (_P('place_cc1717_flatlay.json'), f'{R}/customizer/blanks/cc1717/flatlay', 590)}
 HP = {'Black': (388, 305, 210), 'Ash': (378, 295, 210)}   # hoodie studio model fronts, 800 grid (cx, cy, w)
+HOOD_TOP = {'Black': 552, 'Ash': 535}   # print top on the 2048 px photo: just below the tied drawstring tips (Black ~537, Ash ~519)
 
 def fit(logo, W, hr):
     asp = logo.width / logo.height
@@ -45,8 +46,7 @@ def render(logo, kind, args):
     if kind == 'hoodie_model':
         c = args[0]; cx, cy, w = HP[c]; s = 2048 / 800
         im = Image.open(f'{HERO}/{c}_-_Studio_Front_-_Gildan_18500_Sweatshirt.jpg').convert('RGB').resize((2048, 2048), Image.LANCZOS)
-        top = cy - 101                       # same top as a ~square 10 in print
-        return dr.blend(np.asarray(im), logo, cx * s, top * s, fit(logo, w, HR['hoodie']) * s)
+        return dr.blend(np.asarray(im), logo, cx * s, HOOD_TOP[c], fit(logo, w, HR['hoodie']) * s)
     if kind == 'life':
         set_, color = args; p, d, W = LIFE[set_]
         im = Image.open(f'{d}/{color}.jpg').convert('RGB'); k = 2048 / im.width
@@ -60,7 +60,11 @@ def render(logo, kind, args):
         img = np.asarray(Image.open(f).convert('RGB'))
         cx, top, W, ok = dr.flat_place(img, dr.FLAT_SPECS[set_]['Front'], _MED[key])
         sq, k, xo = dr.to_square(img)
-        return dr.blend(sq, logo, cx * k + xo, top * k, fit(logo, W, HR[set_]) * k)
+        w = fit(logo, W, HR[set_])
+        res = dr.blend(sq, logo, cx * k + xo, top * k, w * k)
+        if set_ in ('hoodie_18500', 'youth_hoodie_18500b'):
+            res = dr.cords_over(res, img, sq, k, xo, cx, top, w, w * logo.height / logo.width)
+        return res
     raise ValueError(kind)
 
 def run_job(job):

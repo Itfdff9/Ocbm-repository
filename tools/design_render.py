@@ -72,11 +72,23 @@ def flat_place(img, spec, med=None):
     basew = b["body_w"] if spec.get("w_ref") == "body" else (b["x1"] - b["x0"])
     return b["cx"], b["y0"] + spec["ft"] * hgt, spec["fw"] * basew, ok
 
-def render_flat(blank, logo, spec, med=None, out=None):
+def cords_over(res, img, sq, k, xo, cx, top, w, h):
+    """Hoodie fronts: drawstrings that cross the print are drawn over it (standing rule).
+    Mask found on the original flat inside the print box, mapped onto the square canvas."""
+    from cords import cord_mask, lay_over
+    m = cord_mask(img, cx - 160, cx + 160, top - 5, top + h + 5)
+    if m.max() < 0.5: return res
+    mm = cv2.resize(m, (int(round(img.shape[1] * k)), OUT_PX), interpolation=cv2.INTER_LINEAR)
+    full = np.zeros(sq.shape[:2], np.float32); full[:, xo:xo + mm.shape[1]] = mm
+    return lay_over(res, sq, full)
+
+def render_flat(blank, logo, spec, med=None, out=None, cords=False, width=None):
     img = np.asarray(Image.open(blank).convert("RGB"))
     cx, top, w, ok = flat_place(img, spec, med)
+    if width: w = width(w)
     sq, k, xo = to_square(img)
     res = blend(sq, logo, cx * k + xo, top * k, w * k)
+    if cords: res = cords_over(res, img, sq, k, xo, cx, top, w, w * logo.height / logo.width)
     if out: Image.fromarray(res).save(out, quality=90)
     return res, ok
 
