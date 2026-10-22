@@ -15,6 +15,16 @@
     endfor
   endif
   assign styles = 'Gildan 5000|Bella+Canvas 3001|Comfort Colors 1717' | split: '|'
+  comment
+    Single-design listings carry a "Design: …" tag; only link tees with the same design tag
+    (products with no design tag link to each other, as before).
+  endcomment
+  assign dkey = ''
+  for tg in product.tags
+    if tg contains 'Design: '
+      assign dkey = tg
+    endif
+  endfor
 -%}
 {%- if home -%}
   {%- capture opts -%}
@@ -22,7 +32,9 @@
       {%- assign k2 = key | append: '|' -%}
       {%- for p in home.products -%}
         {%- assign pt = p.tags | join: '|' | append: '|' -%}
-        {%- if pt contains k2 -%}
+        {%- assign pd = '' -%}
+        {%- for tg in p.tags -%}{%- if tg contains 'Design: ' -%}{%- assign pd = tg -%}{%- endif -%}{%- endfor -%}
+        {%- if pt contains k2 and pd == dkey -%}
           {%- liquid
             if key == 'Gildan 5000'
               assign nm = 'Classic'

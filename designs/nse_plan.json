@@ -1,0 +1,267 @@
+{
+"nse-cheer-dad": {
+"g5000": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g5000/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g5000/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g5000/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g5000/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g5000/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g5000/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g5000/Heliconia_Front.jpg"
+},
+"bc3001": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-dad/bc3001/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-dad/bc3001/White_Front.jpg",
+"True Royal": "/home/claude/ocbm-repository/designs/nse-cheer-dad/bc3001/True-Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-dad/bc3001/Ash_Front.jpg",
+"Asphalt": "/home/claude/ocbm-repository/designs/nse-cheer-dad/bc3001/Asphalt_Front.jpg",
+"Soft Pink": "/home/claude/ocbm-repository/designs/nse-cheer-dad/bc3001/Soft-Pink_Front.jpg",
+"Fuchsia": "/home/claude/ocbm-repository/designs/nse-cheer-dad/bc3001/Fuchsia_Front.jpg"
+},
+"cc1717": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-dad/cc1717/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-dad/cc1717/White_Front.jpg",
+"Grey": "/home/claude/ocbm-repository/designs/nse-cheer-dad/cc1717/Grey_Front.jpg",
+"Pepper": "/home/claude/ocbm-repository/designs/nse-cheer-dad/cc1717/Pepper_Front.jpg",
+"Blossom": "/home/claude/ocbm-repository/designs/nse-cheer-dad/cc1717/Blossom_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-dad/cc1717/Heliconia_Front.jpg"
+},
+"g18000": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18000/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18000/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18000/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18000/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18000/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18000/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18000/Heliconia_Front.jpg"
+},
+"g18500": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18500/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18500/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18500/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18500/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18500/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18500/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-dad/g18500/Heliconia_Front.jpg"
+}
+},
+"nse-cheer-bow": {
+"g5000": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g5000/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g5000/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g5000/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g5000/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g5000/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g5000/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g5000/Heliconia_Front.jpg"
+},
+"bc3001": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-bow/bc3001/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-bow/bc3001/White_Front.jpg",
+"True Royal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/bc3001/True-Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-bow/bc3001/Ash_Front.jpg",
+"Asphalt": "/home/claude/ocbm-repository/designs/nse-cheer-bow/bc3001/Asphalt_Front.jpg",
+"Soft Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/bc3001/Soft-Pink_Front.jpg",
+"Fuchsia": "/home/claude/ocbm-repository/designs/nse-cheer-bow/bc3001/Fuchsia_Front.jpg"
+},
+"cc1717": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-bow/cc1717/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-bow/cc1717/White_Front.jpg",
+"Grey": "/home/claude/ocbm-repository/designs/nse-cheer-bow/cc1717/Grey_Front.jpg",
+"Pepper": "/home/claude/ocbm-repository/designs/nse-cheer-bow/cc1717/Pepper_Front.jpg",
+"Blossom": "/home/claude/ocbm-repository/designs/nse-cheer-bow/cc1717/Blossom_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-bow/cc1717/Heliconia_Front.jpg"
+},
+"g18000": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18000/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18000/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18000/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18000/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18000/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18000/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18000/Heliconia_Front.jpg"
+},
+"g18500": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18500/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18500/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18500/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18500/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18500/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18500/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-bow/g18500/Heliconia_Front.jpg"
+},
+"youth_5000b": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-bow/youth_5000b/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-bow/youth_5000b/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/youth_5000b/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-bow/youth_5000b/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/youth_5000b/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/youth_5000b/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-cheer-bow/youth_5000b/Heliconia_Front.jpg"
+},
+"toddler_3301t": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-bow/toddler_3301t/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-bow/toddler_3301t/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/toddler_3301t/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-cheer-bow/toddler_3301t/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/toddler_3301t/Charcoal_Front.jpg",
+"Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/toddler_3301t/Pink_Front.jpg",
+"Hot Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/toddler_3301t/Hot-Pink_Front.jpg"
+},
+"onesie_4400": {
+"Black": "/home/claude/ocbm-repository/designs/nse-cheer-bow/onesie_4400/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-cheer-bow/onesie_4400/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/onesie_4400/Royal_Front.jpg",
+"Heather": "/home/claude/ocbm-repository/designs/nse-cheer-bow/onesie_4400/Heather_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-cheer-bow/onesie_4400/Charcoal_Front.jpg",
+"Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/onesie_4400/Pink_Front.jpg",
+"Hot Pink": "/home/claude/ocbm-repository/designs/nse-cheer-bow/onesie_4400/Hot-Pink_Front.jpg"
+}
+},
+"nse-star-logo": {
+"g5000": {
+"Black": "/home/claude/ocbm-repository/designs/nse-star-logo/g5000/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-star-logo/g5000/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-star-logo/g5000/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-star-logo/g5000/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-star-logo/g5000/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/g5000/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-star-logo/g5000/Heliconia_Front.jpg"
+},
+"bc3001": {
+"Black": "/home/claude/ocbm-repository/designs/nse-star-logo/bc3001/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-star-logo/bc3001/White_Front.jpg",
+"True Royal": "/home/claude/ocbm-repository/designs/nse-star-logo/bc3001/True-Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-star-logo/bc3001/Ash_Front.jpg",
+"Asphalt": "/home/claude/ocbm-repository/designs/nse-star-logo/bc3001/Asphalt_Front.jpg",
+"Soft Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/bc3001/Soft-Pink_Front.jpg",
+"Fuchsia": "/home/claude/ocbm-repository/designs/nse-star-logo/bc3001/Fuchsia_Front.jpg"
+},
+"cc1717": {
+"Black": "/home/claude/ocbm-repository/designs/nse-star-logo/cc1717/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-star-logo/cc1717/White_Front.jpg",
+"Grey": "/home/claude/ocbm-repository/designs/nse-star-logo/cc1717/Grey_Front.jpg",
+"Pepper": "/home/claude/ocbm-repository/designs/nse-star-logo/cc1717/Pepper_Front.jpg",
+"Blossom": "/home/claude/ocbm-repository/designs/nse-star-logo/cc1717/Blossom_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-star-logo/cc1717/Heliconia_Front.jpg"
+},
+"g18000": {
+"Black": "/home/claude/ocbm-repository/designs/nse-star-logo/g18000/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-star-logo/g18000/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-star-logo/g18000/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-star-logo/g18000/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-star-logo/g18000/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/g18000/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-star-logo/g18000/Heliconia_Front.jpg"
+},
+"g18500": {
+"Black": "/home/claude/ocbm-repository/designs/nse-star-logo/g18500/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-star-logo/g18500/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-star-logo/g18500/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-star-logo/g18500/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-star-logo/g18500/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/g18500/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-star-logo/g18500/Heliconia_Front.jpg"
+},
+"youth_5000b": {
+"Black": "/home/claude/ocbm-repository/designs/nse-star-logo/youth_5000b/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-star-logo/youth_5000b/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-star-logo/youth_5000b/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-star-logo/youth_5000b/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-star-logo/youth_5000b/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/youth_5000b/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-star-logo/youth_5000b/Heliconia_Front.jpg"
+},
+"toddler_3301t": {
+"Black": "/home/claude/ocbm-repository/designs/nse-star-logo/toddler_3301t/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-star-logo/toddler_3301t/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-star-logo/toddler_3301t/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-star-logo/toddler_3301t/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-star-logo/toddler_3301t/Charcoal_Front.jpg",
+"Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/toddler_3301t/Pink_Front.jpg",
+"Hot Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/toddler_3301t/Hot-Pink_Front.jpg"
+},
+"onesie_4400": {
+"Black": "/home/claude/ocbm-repository/designs/nse-star-logo/onesie_4400/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-star-logo/onesie_4400/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-star-logo/onesie_4400/Royal_Front.jpg",
+"Heather": "/home/claude/ocbm-repository/designs/nse-star-logo/onesie_4400/Heather_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-star-logo/onesie_4400/Charcoal_Front.jpg",
+"Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/onesie_4400/Pink_Front.jpg",
+"Hot Pink": "/home/claude/ocbm-repository/designs/nse-star-logo/onesie_4400/Hot-Pink_Front.jpg"
+}
+},
+"nse-blue-black-white": {
+"g5000": {
+"Black": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g5000/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g5000/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g5000/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g5000/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g5000/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g5000/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g5000/Heliconia_Front.jpg"
+},
+"bc3001": {
+"Black": "/home/claude/ocbm-repository/designs/nse-blue-black-white/bc3001/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-blue-black-white/bc3001/White_Front.jpg",
+"True Royal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/bc3001/True-Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-blue-black-white/bc3001/Ash_Front.jpg",
+"Asphalt": "/home/claude/ocbm-repository/designs/nse-blue-black-white/bc3001/Asphalt_Front.jpg",
+"Soft Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/bc3001/Soft-Pink_Front.jpg",
+"Fuchsia": "/home/claude/ocbm-repository/designs/nse-blue-black-white/bc3001/Fuchsia_Front.jpg"
+},
+"cc1717": {
+"Black": "/home/claude/ocbm-repository/designs/nse-blue-black-white/cc1717/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-blue-black-white/cc1717/White_Front.jpg",
+"Grey": "/home/claude/ocbm-repository/designs/nse-blue-black-white/cc1717/Grey_Front.jpg",
+"Pepper": "/home/claude/ocbm-repository/designs/nse-blue-black-white/cc1717/Pepper_Front.jpg",
+"Blossom": "/home/claude/ocbm-repository/designs/nse-blue-black-white/cc1717/Blossom_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-blue-black-white/cc1717/Heliconia_Front.jpg"
+},
+"g18000": {
+"Black": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18000/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18000/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18000/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18000/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18000/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18000/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18000/Heliconia_Front.jpg"
+},
+"g18500": {
+"Black": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18500/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18500/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18500/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18500/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18500/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18500/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-blue-black-white/g18500/Heliconia_Front.jpg"
+},
+"youth_5000b": {
+"Black": "/home/claude/ocbm-repository/designs/nse-blue-black-white/youth_5000b/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-blue-black-white/youth_5000b/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/youth_5000b/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-blue-black-white/youth_5000b/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/youth_5000b/Charcoal_Front.jpg",
+"Light Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/youth_5000b/Light-Pink_Front.jpg",
+"Heliconia": "/home/claude/ocbm-repository/designs/nse-blue-black-white/youth_5000b/Heliconia_Front.jpg"
+},
+"toddler_3301t": {
+"Black": "/home/claude/ocbm-repository/designs/nse-blue-black-white/toddler_3301t/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-blue-black-white/toddler_3301t/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/toddler_3301t/Royal_Front.jpg",
+"Ash": "/home/claude/ocbm-repository/designs/nse-blue-black-white/toddler_3301t/Ash_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/toddler_3301t/Charcoal_Front.jpg",
+"Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/toddler_3301t/Pink_Front.jpg",
+"Hot Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/toddler_3301t/Hot-Pink_Front.jpg"
+},
+"onesie_4400": {
+"Black": "/home/claude/ocbm-repository/designs/nse-blue-black-white/onesie_4400/Black_Front.jpg",
+"White": "/home/claude/ocbm-repository/designs/nse-blue-black-white/onesie_4400/White_Front.jpg",
+"Royal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/onesie_4400/Royal_Front.jpg",
+"Heather": "/home/claude/ocbm-repository/designs/nse-blue-black-white/onesie_4400/Heather_Front.jpg",
+"Charcoal": "/home/claude/ocbm-repository/designs/nse-blue-black-white/onesie_4400/Charcoal_Front.jpg",
+"Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/onesie_4400/Pink_Front.jpg",
+"Hot Pink": "/home/claude/ocbm-repository/designs/nse-blue-black-white/onesie_4400/Hot-Pink_Front.jpg"
+}
+}
+}

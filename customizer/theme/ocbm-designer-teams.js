@@ -29,6 +29,27 @@ window.OCBM_TEAMS = {
   }
 };
 
+/* North Shore Elite single-design listings (tag "Design: …" on the product): same NSE design menu,
+   but the front starts on that listing's design and the back starts blank. */
+(function () {
+  var NSE_DESIGNS = [
+    { id: 'nse', label: 'North Shore Elite emblem', src: 'designs/nse_emblem.png' },
+    { id: 'bbw', label: 'Blue Black White', src: 'designs/blue_black_white.png' },
+    { id: 'star_logo', label: 'NS North Shore Elite star logo', src: 'designs/nse_star_logo.png' },
+    { id: 'cheer_bow', label: 'North Shore Elite cheer bow', src: 'designs/nse_cheer_bow.png' },
+    { id: 'cheer_dad', label: 'Cheer Dad (Loud · Proud · Always There)', src: 'designs/nse_cheer_dad.png' }
+  ];
+  var map = { NSE_CHEERDAD: 'cheer_dad', NSE_CHEERBOW: 'cheer_bow', NSE_STARLOGO: 'star_logo', NSE_BBW: 'bbw' };
+  Object.keys(map).forEach(function (k) {
+    window.OCBM_TEAMS[k] = {
+      designs: NSE_DESIGNS,
+      front: { design: map[k], loc: 'center_chest' },
+      back: { design: 'none', loc: 'full_back' },
+      nameColors: { fill: '#f8f8f6', key: '#0c0c0c', edge: '#16489e' }
+    };
+  });
+})();
+
 /* Back swap checkbox: sits at the top of the designer's Back section and drives its Back design menu,
    so the order notes ("Back Design", "Athlete Last Name", "Athlete Number") stay exactly as the designer writes them. */
 (function () {
