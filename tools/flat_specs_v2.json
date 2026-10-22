@@ -1,0 +1,11 @@
+{
+ "_note": "2026-10-22 sizing: adult fronts fit 12 x 14 in, adult backs 14 x 14 in (fractions assume the S&S sample is a size L: Gildan 5000 / CC 1717 22 in chest, B+C 3001 20 in, Gildan 18000 / 18500 24 in; crew/hoodie widths are fractions of the full flat incl. arms). Hoodie fronts stop 10 px above the pouch pocket (pocket top = 0.569 of the flat's height). Kids fronts unchanged; kids backs = 1.15x the front width.",
+ "tee_5000":   {"Front": {"ft": 0.165, "fw": 0.545, "w_ref": "body", "hr": 1.167}, "Back": {"ft": 0.175, "fw": 0.636, "w_ref": "body", "hr": 1.0}},
+ "bc_3001":    {"Front": {"ft": 0.165, "fw": 0.60,  "w_ref": "body", "hr": 1.167}, "Back": {"ft": 0.175, "fw": 0.70,  "w_ref": "body", "hr": 1.0}},
+ "cc_1717":    {"Front": {"ft": 0.165, "fw": 0.545, "w_ref": "body", "hr": 1.167}, "Back": {"ft": 0.175, "fw": 0.636, "w_ref": "body", "hr": 1.0}},
+ "crew_18000": {"Front": {"ft": 0.17, "fw": 0.31, "hr": 1.167}, "Back": {"ft": 0.15, "fw": 0.36, "hr": 1.0}},
+ "hoodie_18500": {"Front": {"ft": 0.25, "fw": 0.33, "hr": 1.167, "pocket": 0.569}, "Back": {"ft": 0.33, "fw": 0.405, "hr": 1.0}},
+ "youth_tee_5000b": {"Front": {"ft": 0.165, "fw": 0.52, "w_ref": "body", "hr": 1.2}, "Back": {"ft": 0.17, "fw": 0.60, "w_ref": "body", "hr": 1.0}},
+ "toddler_tee_3301t": {"Front": {"ft": 0.17, "fw": 0.52, "w_ref": "body", "hr": 1.15}, "Back": {"ft": 0.17, "fw": 0.60, "w_ref": "body", "hr": 1.0}},
+ "onesie_4400": {"Front": {"ft": 0.16, "fw": 0.55, "w_ref": "body", "hr": 1.1}, "Back": {"ft": 0.13, "fw": 0.60, "w_ref": "body", "hr": 1.0}}
+}
