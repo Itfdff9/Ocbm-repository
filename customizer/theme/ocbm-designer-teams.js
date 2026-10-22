@@ -37,7 +37,8 @@ window.OCBM_TEAMS = {
     { id: 'bbw', label: 'Blue Black White', src: 'designs/blue_black_white.png' },
     { id: 'star_logo', label: 'NS North Shore Elite star logo', src: 'designs/nse_star_logo.png' },
     { id: 'cheer_bow', label: 'North Shore Elite cheer bow', src: 'designs/nse_cheer_bow.png' },
-    { id: 'cheer_dad', label: 'Cheer Dad (Loud · Proud · Always There)', src: 'designs/nse_cheer_dad.png' }
+    { id: 'cheer_dad', label: 'Cheer Dad (Loud · Proud · Always There)', src: 'designs/nse_cheer_dad.png' },
+    { id: 'starburst', label: 'NS North Shore Elite starburst', src: 'designs/nse_starburst.png' }
   ];
   var map = { NSE_CHEERDAD: 'cheer_dad', NSE_CHEERBOW: 'cheer_bow', NSE_STARLOGO: 'star_logo', NSE_BBW: 'bbw' };
   Object.keys(map).forEach(function (k) {
@@ -48,6 +49,21 @@ window.OCBM_TEAMS = {
       nameColors: { fill: '#f8f8f6', key: '#0c0c0c', edge: '#16489e' }
     };
   });
+  /* Starburst: the design on the front AND the full back by default.
+     Adults: full front (hoodies: center chest, above the pocket). Kids (tag "Kids"): center chest. */
+  var NC = { fill: '#f8f8f6', key: '#0c0c0c', edge: '#16489e' };
+  window.OCBM_TEAMS.NSE_STARBURST = {
+    designs: NSE_DESIGNS,
+    front: { design: 'starburst', loc: 'full_front', locByGarment: { hoodie: 'center_chest' } },
+    back: { design: 'starburst', loc: 'full_back' },
+    nameColors: NC
+  };
+  window.OCBM_TEAMS.NSE_STARBURST_KIDS = {
+    designs: NSE_DESIGNS,
+    front: { design: 'starburst', loc: 'center_chest' },
+    back: { design: 'starburst', loc: 'full_back' },
+    nameColors: NC
+  };
 })();
 
 /* Back swap checkbox: sits at the top of the designer's Back section and drives its Back design menu,
